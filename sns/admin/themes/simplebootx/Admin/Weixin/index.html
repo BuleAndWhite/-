@@ -1,0 +1,92 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('WeixinPublic/index')}">公众号管理</a></li>
+			<li><a href="{:U('WeixinPublic/add')}">{:L('添加公众号')}</a></li>
+		</ul>
+		
+		<form class="well form-search" id="mainform" action="{:U('WeixinPublic/index')}" method="post">
+			当前操作公众号：
+			<select id="navcid_select" name="id">
+				<volist name="weixin_list" id="vo">
+				<option value="{$vo.id}" <eq name="vo.app_wxid" value="$token">selected</eq>>{$vo.app_name}</option>
+				</volist>
+			</select>
+		</form>
+		 
+		<form class="js-ajax-form" method="post">
+			<div class="table-actions">
+				<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('WeixinPublic/delete','type=1')}" data-subcheck="true" data-msg="{:L('DELETE_CONFIRM_MESSAGE')}">{:L('DELETE')}</button>
+			</div>
+			<table class="table table-hover table-bordered table-list">
+				<thead>
+					<tr>
+						<th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th>
+						<th width="100">ID</th>
+						<th>{:L('公众号名称')}</th>
+						<!-- <th>点击量</th> -->
+						<th width="100">公众号头像</th>
+						<th width="100">等级</th>
+						<!-- <th width="100">Token</th> -->
+						<th width="120"><span>当前公众号</span></th>
+						<th width="120">{:L('ACTIONS')}</th>
+					</tr>
+				</thead>
+				<foreach name="weixin_list" item="vo">
+				<tr>
+					<td><input type="checkbox" class="js-check" data-yid="js-check-y" data-xid="js-check-x" name="ids[]" value="{$vo.id}"></td>
+					<td><a>{$vo.id}</a></td>
+					<td><a href="{:U('Weixin/add',array('id'=>$vo['id']))}"><span>{$vo.app_name}</span></a></td>
+					<!--  <td>0</td> -->
+					<!-- <td></td> -->
+					<td>无</td>
+					<td>无</td>
+					<td>{:$vo['app_wxid'] == $_SESSION['TOKEN'] ? '是' : '否'}</td>
+					<td>
+						<a href="{:U('WeixinPublic/add',array('id'=>$vo['id']))}">{:L('EDIT')}</a> |
+						<a href="{:U('WeixinPublic/delete',array('id'=>$vo['id'],'type'=>1))}" class="js-ajax-delete">{:L('DELETE')}</a>
+					</td>
+				</tr>
+				</foreach>
+				<tfoot>
+					<tr>
+						<th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th>
+						<th width="100">ID</th>
+						<th>{:L('公众号名称')}</th>
+						<!-- <th>点击量</th> -->
+						<th width="100">公众号头像</th>
+						<th width="100">等级</th>
+						<!-- <th width="100">Token</th> -->
+						<th width="120"><span>当前公众号</span></th>
+						<th width="120">{:L('ACTIONS')}</th>
+					</tr>
+				</tfoot>
+			</table>
+			<div class="table-actions">
+				<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('WeixinPublic/delete','type=1')}" data-subcheck="true" data-msg="你确定删除吗？">{:L('DELETE')}</button>
+			</div>
+			<div class="pagination">{$Page}</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script>
+		$(function() {
+			$("#navcid_select").change(function() {
+				$("#mainform").submit();
+			});
+			setCookie('refersh_time', 0);
+			function refersh_window() {
+				var refersh_time = getCookie('refersh_time');
+				if (refersh_time == 1) {
+					window.location.reload();
+				}
+			}
+			setInterval(function() {
+				refersh_window()
+			}, 2000);
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<admintpl file="header"/>
+<script src="__PUBLIC__/datetimepicker/static/bootstrap-datetimepicker.min.js"></script>
+<script src="__PUBLIC__/datetimepicker/static/bootstrap-datetimepicker.zh-CN.js"></script>
+<link href="__PUBLIC__/datetimepicker/static/datetimepicker_blue.css" rel="stylesheet"/>
+<link href="__PUBLIC__/datetimepicker/static/datetimepicker.css"/>
+<link href="__PUBLIC__/datetimepicker/static/dropdown.css"/>
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('Ticket/index')}">门票管理</a></li>
+			<li class="active"><a href="{:U('Ticket/add')}">添加门票</a></li>
+		</ul>
+		<form action="{:U('Ticket/add')}" method="post" class="form-horizontal js-ajax-form" enctype="multipart/form-data">
+			<div class="row-fluid">
+				<div class="span9">
+					<table class="table table-bordered">
+						<tr>
+							<th>名称</th>
+							<td>
+								<input type="text" style="width: 400px;" name="info[name]" value="{$ticket_info.name}" placeholder="请输入名称"/>
+								<span class="form-required">*</span>
+							</td>
+						</tr>
+						<tr>
+							<th width="80">分类</th>
+							<td>
+								<select name="info[parent_id]">
+									<option value="0">请选择</option>
+									<foreach name="list" item="vo">
+									<option value="{$vo.id}" <eq name="ticket_info.parent_id" value="$vo.id">selected</eq>>{$vo.name}</option>
+									</foreach>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>类型</th>
+							<td>
+								<input type="text" style="width: 400px;" name="info[ticket_type]" value="{$ticket_info.ticket_type}" placeholder="请输入类型"/>
+								<span class="form-required">*</span>
+							</td>
+						</tr>
+						<tr>
+							<th>编号</th>
+							<td>
+								<input type="text" style="width: 400px;" name="info[ticket_id]" value="{$ticket_info.ticket_id}" placeholder="请输入编号"/>
+								<span class="form-required">*</span>
+							</td>
+						</tr>
+						<tr>
+							<th>价格</th>
+							<td>
+								<input type="text" style="width: 400px;" name="info[price]" value="{$ticket_info.price}" placeholder="请输入价格"/>
+								<span class="form-required">*</span>
+							</td>
+						</tr>
+						
+						<tr>
+							<th>开始时间</th>
+							<td><input type="text" class="time" name="info[start_time]" value="{$ticket_info.start_time}" style="width: 400px" placeholder="开始时间" /></td>
+						</tr>
+						
+						<tr>
+							<th>结束时间</th>
+							<td><input type="text" class="time" name="info[end_time]" value="{$ticket_info.end_time}" style="width: 400px" placeholder="结束时间" /></td>
+						</tr>
+						<tr>
+							<th>销售开始</th>
+							<td><input type="text" class="time" name="info[sale_start_time]" value="{$ticket_info.sale_start_time}" style="width: 400px" placeholder="销售开始" /></td>
+						</tr>
+						<tr>
+							<th>销售结束</th>
+							<td><input type="text" class="time" name="info[sale_end_time]" value="{$ticket_info.sale_end_time}" style="width: 400px" placeholder="销售结束" /></td>
+						</tr>
+						<tr>
+							<th>开始日期</th>
+							<td><input type="text" class="date" name="info[start_date]"
+							 value="<empty name='ticket_info'>{:date('Y-m-d')}<else/>{$ticket_info.start_date|date='Y-m-d',###}</empty>" style="width: 400px" placeholder="开始日期" /></td>
+						</tr>
+						<tr>
+							<th>结束日期</th>
+							<td><input type="text" class="date" name="info[end_date]"
+							 value="<empty name='ticket_info'>{:date('Y-m-d')}<else/>{$ticket_info.end_date|date='Y-m-d',###}</empty>" style="width: 400px" placeholder="结束日期" /></td>
+						</tr>
+						<script type="text/javascript">
+							$('.time').datetimepicker({
+						        format: 'hh:ii',
+						        language:"zh-CN",
+						        startView : 1,
+						        autoclose:true
+						    });
+							$('.date').datetimepicker({
+								format: 'yyyy-mm-dd',
+						        language:"zh-CN",
+						        minView:2,
+						        autoclose:true
+						    });
+						</script>
+						<tr>
+							<th>周几</th>
+							<td>
+							<select name="info[week]">
+								<option value="1,2,3,4">周一至周四</option>
+								<option value="5">周五</option>
+								<option value="1,2,3,4,5" <eq name="ticket_info.week" value="1,2,3,4,5">selected</eq>>周一至周五</option>
+								<option value="1,2,3,4,5,6,7" <eq name='ticket_info.week' value='1,2,3,4,5,6,7'>selected</eq>>周一至周日</option>
+								<option value="6,7" <eq name='ticket_info.week' value='6,7'>selected</eq>>周六周日</option>
+							</select>
+							</td>
+						</tr>
+						<tr>
+							<th>备注</th>
+							<td><input type="text" name="info[comment]" value="{$ticket_info.comment}" style="width: 400px"></td>
+						</tr>
+						<tr>
+							<th>描述</th>
+							<td><textarea name="info[description]" style="width: 98%; height: 200px;">{$ticket_info.description}</textarea></td>
+						</tr>
+					</table>
+				</div>
+				<div class="span3">
+					<table class="table table-bordered">
+						<tr>
+							<th>缩略图</th>
+						</tr>
+						<tr>
+							<td>
+								<div style="text-align: center;">
+									<input type="hidden" name="info[pic]" id="thumb" value="">
+									<a href="javascript:void(0);" onclick="flashupload('thumb_images', '附件上传','thumb',thumb_images,'1,jpg|jpeg|gif|png|bmp,1,,,1','','','');return false;">
+										<img src="<empty name='ticket_info.pic'>__TMPL__Public/assets/images/default-thumbnail.png<else/>{$ticket_info.pic}</empty>" id="thumb_preview" width="135" style="cursor: hand" />
+									</a>
+									<input type="button" class="btn btn-small" onclick="$('#thumb_preview').attr('src','__TMPL__Public/assets/images/default-thumbnail.png');$('#thumb').val('');return false;" value="取消图片">
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="form-actions">
+					<input type="hidden" name="info[id]" value="{$ticket_info.id}" />
+					<button type="submit" class="btn btn-primary  js-ajax-submit">{:L("SAVE")}</button>
+				</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/content_addtop.js"></script>
+	
+</body>
+</html>

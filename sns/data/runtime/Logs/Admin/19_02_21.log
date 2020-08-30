@@ -1,0 +1,90 @@
+[ 2019-02-21T13:38:32+08:00 ] 180.152.248.108 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2019-02-21T13:38:38+08:00 ] 180.152.248.108 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('180.152.248.108','1','1550727517','1') [ RunTime:0.0801s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='180.152.248.108',`last_login_time`='2019-02-21 13:38:37',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.1038s ]
+
+[ 2019-02-21T13:38:41+08:00 ] 180.152.248.108 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2019-02-21T13:38:43+08:00 ] 180.152.248.108 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2019-02-21T13:38:45+08:00 ] 180.152.248.108 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2019-02-21T13:40:57+08:00 ] 180.152.248.108 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2019-02-21T13:50:57+08:00 ] 180.152.248.108 /index.php?g=Admin&m=ForHost&a=index&menuid=214
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2019-02-21T13:50:58+08:00 ] 180.152.248.108 /index.php?g=Admin&m=Positioning&a=index&menuid=209
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\AddressModel
+
+[ 2019-02-21T13:50:59+08:00 ] 180.152.248.108 /index.php?g=Admin&m=Feedback&a=index&menuid=207
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2019-02-21T13:51:00+08:00 ] 180.152.248.108 /index.php?g=Admin&m=Withdraw&a=withdrawal&menuid=205
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\WithdrawModel
+
+[ 2019-02-21T13:51:01+08:00 ] 180.152.248.108 /index.php?g=Admin&m=Message&a=index&menuid=192
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2019-02-21T13:51:02+08:00 ] 180.152.248.108 /index.php?g=Admin&m=Withdraw&a=withdrawal&menuid=205
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\WithdrawModel
+
+[ 2019-02-21T14:02:44+08:00 ] 180.152.248.108 /index.php?g=Admin&m=ForHost&a=index&menuid=214
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2019-02-21T14:02:48+08:00 ] 180.152.248.108 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+

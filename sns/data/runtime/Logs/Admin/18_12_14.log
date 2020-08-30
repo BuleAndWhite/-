@@ -1,0 +1,39 @@
+[ 2018-12-14T12:36:50+08:00 ] 124.77.175.81 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('124.77.175.81','166','1544762210','1') [ RunTime:0.0037s ]
+SQL: UPDATE `az_users` SET `user_login`='ceshi',`user_pass`='###580844c34c1f4740325c3f18cc2cb50b',`user_nicename`=NULL,`user_email`='14657476@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='124.77.175.81',`last_login_time`='2018-12-14 12:36:50',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`=NULL,`parent`='1',`wx_id`='0',`machine_code`='',`q_r_code`=NULL,`password_code`=NULL WHERE `id` = 166 [ RunTime:0.0035s ]
+
+[ 2018-12-14T12:49:15+08:00 ] 58.246.141.99 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0016s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0016s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('58.246.141.99','166','1544762955','1') [ RunTime:0.0037s ]
+SQL: UPDATE `az_users` SET `user_login`='ceshi',`user_pass`='###580844c34c1f4740325c3f18cc2cb50b',`user_nicename`=NULL,`user_email`='14657476@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='58.246.141.99',`last_login_time`='2018-12-14 12:49:15',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`=NULL,`parent`='1',`wx_id`='0',`machine_code`='',`q_r_code`=NULL,`password_code`=NULL WHERE `id` = 166 [ RunTime:0.0032s ]
+
+[ 2018-12-14T15:39:45+08:00 ] 223.104.210.97 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('223.104.210.97','166','1544773185','1') [ RunTime:0.0042s ]
+SQL: UPDATE `az_users` SET `user_login`='ceshi',`user_pass`='###580844c34c1f4740325c3f18cc2cb50b',`user_nicename`=NULL,`user_email`='14657476@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='223.104.210.97',`last_login_time`='2018-12-14 15:39:45',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`=NULL,`parent`='1',`wx_id`='0',`machine_code`='',`q_r_code`=NULL,`password_code`=NULL WHERE `id` = 166 [ RunTime:0.0036s ]
+

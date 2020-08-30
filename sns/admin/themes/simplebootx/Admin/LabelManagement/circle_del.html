@@ -1,0 +1,109 @@
+<admintpl file="header"/>
+
+</head>
+<body>
+<div class="wrap js-check-wrap">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="javascript:;">圈主回收站</a></li>
+		<li><a href="{:U('Information/circle_list')}" target="_self">圈主管理</a></li>
+		<li><a href="{:U('Information/circle_recommend')}" target="_self">圈主推荐</a></li>
+	</ul>
+	<form class="well form-search" method="post" action="{:U('Information/index')}">
+
+		时间：
+		<input type="text" name="start_time" class="js-date" value="{$formget.start_time|default=''}"
+			   style="width: 80px;" autocomplete="off">-
+		<input type="text" class="js-date" name="end_time" value="{$formget.end_time}" style="width: 80px;"
+			   autocomplete="off"> &nbsp; &nbsp;
+		关键字：
+		<input type="text" name="keyword" style="width: 200px;" value="{$formget.keyword}" placeholder="请输入关键字...">
+		<input type="submit" class="btn btn-primary" value="搜索"/>
+	</form>
+	<form class="js-ajax-form" action="" method="post">
+		<table class="table table-hover table-bordered table-list">
+			<thead>
+			<tr>
+				<th width="50">Id</th>
+				<th width="50">名称</th>
+
+				<th width="80">分类</th>
+				<th width="70">圈主</th>
+				<th width="50">成员数</th>
+				<th width="50">帖子数</th>
+				<th width="50">审核状态</th>
+				<th width="50">创建时间</th>
+				<th width="70">{:L('ACTIONS')}</th>
+			</tr>
+			</thead>
+			<php>
+				$status=array("1"=>"已通过","0"=>"待审核","2"=>未通过);
+			</php>
+			<foreach name="masterList" item="vo">
+				<tr>
+					<td>{$vo.master_id}</td>
+					<td><span>{$vo.master_name}</span></td>
+
+					<td>{$vo.circle_name}</td>
+					<td>{$vo.user_nicename}</td>
+					<td>{$vo.follower_count}</td>
+					<td>{$vo.thread_count}</td>
+					<td>{$status[$vo['status']]}
+					<td>{$vo.ctime}
+					<td>
+						<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('Information/restoreMasterIsDel',array('ids'=>$vo['master_id']))}" >恢复</button>
+					</td>
+				</tr>
+			</foreach>
+
+		</table>
+
+		<div class="pagination">{$page}</div>
+	</form>
+</div>
+<script src="__PUBLIC__/js/common.js"></script>
+<script>
+    function refersh_window() {
+        var refersh_time = getCookie('refersh_time');
+        if (refersh_time == 1) {
+            window.location = "{:U('AdminPost/index',$formget)}";
+        }
+    }
+
+    setInterval(function () {
+        refersh_window();
+    }, 2000);
+    $(function () {
+        setCookie("refersh_time", 0);
+        Wind.use('ajaxForm', 'artDialog', 'iframeTools', function () {
+            //批量移动
+            $('.js-articles-move').click(function (e) {
+                var str = 0;
+                var id = tag = '';
+                $("input[name='ids[]']").each(function () {
+                    if ($(this).attr('checked')) {
+                        str = 1;
+                        id += tag + $(this).val();
+                        tag = ',';
+                    }
+                });
+                if (str == 0) {
+                    art.dialog.through({
+                        id: 'error',
+                        icon: 'error',
+                        content: '您没有勾选信息，无法进行操作！',
+                        cancelVal: '关闭',
+                        cancel: true
+                    });
+                    return false;
+                }
+                var $this = $(this);
+                art.dialog.open("__ROOT__/index.php?g=portal&m=AdminPost&a=move&ids=" + id, {
+                    title: "批量移动",
+                    width: "80%"
+                });
+            });
+        });
+    });
+</script>
+</body>
+</html>

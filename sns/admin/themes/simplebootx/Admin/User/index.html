@@ -1,0 +1,99 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+
+
+			<if condition="$userOneType eq 2 ">
+				<li class="active"><a href="{:U('user/index')}">{:L('ADMIN_USER_INDEX')}</a></li>
+				<li><a href="{:U('user/add')}">{:L('ADMIN_USER_ADD')}</a></li>
+				<li><a href='{:U("user/owner",array("did"=>$userOneDid,"user_type"=>$userOneType))}'>我的推广码</a></li>
+				<elseif condition="$userOneType eq 3||$userOneType eq 4||$userOneType eq 5"/>
+				<li><a href='{:U("user/owner",array("did"=>$userOneDid,"user_type"=>$userOneType))}'>我的推广码</a></li>
+				<else />
+				<li class="active"><a href="{:U('user/index')}">{:L('ADMIN_USER_INDEX')}</a></li>
+				<li><a href="{:U('user/add')}">{:L('ADMIN_USER_ADD')}</a></li>
+			</if>
+			<if condition="$userOneType eq 4||$userOneType eq 5">
+				<li><a href='{:U("user/passwords",array("did"=>$userOneDid,"user_type"=>$userOneType))}'>我的口令码</a></li>
+					<else />
+					</if>
+
+		</ul>
+
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th width="50">ID</th>
+					<th>后台{:L('USERNAME')}</th>
+					<th>微信用户名</th>
+					<th>{:L('LAST_LOGIN_IP')}</th>
+					<th>{:L('LAST_LOGIN_TIME')}</th>
+					<th>{:L('EMAIL')}</th>
+					<th>设备编号</th>
+					<th>类别</th>
+					<th>查看机主编码</th>
+					<th>{:L('STATUS')}</th>
+					<th width="120">{:L('ACTIONS')}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<php>$user_statuses=array("0"=>L('USER_STATUS_BLOCKED'),"1"=>L('USER_STATUS_ACTIVATED'),"2"=>L('USER_STATUS_UNVERIFIED'));</php>
+				<php>$user_types=array("1"=>"管理员","2"=>"运营商","3"=>"机主","4"=>"合伙人","5"=>"创客");</php>
+
+				<foreach name="users" item="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.user_login}</td>
+					<td>{$vo.name}</td>
+					<td>{$vo.last_login_ip}</td>
+					<td>
+						<if condition="$vo['last_login_time'] eq 0">
+							{:L('USER_HAVENOT_LOGIN')}
+						<else />
+							{$vo.last_login_time}
+						</if>
+					</td>
+					<td>{$vo.user_email}</td>
+					<td>{$vo.did}</td>
+					<if condition="$vo['is_vip'] eq 7">
+						<td>天使机主</td>
+						<elseif  condition="$vo['is_vip'] eq 8"/>
+						<td>机主</td>
+						<else />
+						<td>{$user_types[$vo['user_type']]}</td>
+					</if>
+
+
+					<!--<td><img width="100" height="100"  src="{$vo.imageString}"/></td>-->
+                    <td><a href='{:U("user/owner",array("did"=>$vo["did"],"user_type"=>$vo["user_type"]))}'>查看推广码</a> </td>
+
+                    <td>{$user_statuses[$vo['user_status']]}</td>
+					<td>
+						<if condition="$vo['id'] eq 1">
+						<font color="#cccccc">{:L('EDIT')}</font> | <font color="#cccccc">{:L('DELETE')}</font> |
+							<if condition="$vo['user_status'] eq 1">
+								<font color="#cccccc">{:L('BLOCK_USER')}</font>
+							<else />
+								<font color="#cccccc">{:L('ACTIVATE_USER')}</font>
+							</if>
+						<else />
+							<a href='{:U("user/edit",array("id"=>$vo["id"]))}'>{:L('EDIT')}</a> |
+							<a class="js-ajax-delete" href="{:U('user/delete',array('id'=>$vo['id']))}">{:L('DELETE')}</a> |
+							<if condition="$vo['user_status'] eq 1">
+								<a href="{:U('user/ban',array('id'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="{:L('BLOCK_USER_CONFIRM_MESSAGE')}">{:L('BLOCK_USER')}</a>
+							<else />
+								<a href="{:U('user/cancelban',array('id'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="{:L('ACTIVATE_USER_CONFIRM_MESSAGE')}">{:L('ACTIVATE_USER')}</a>
+							</if>
+						</if>
+					</td>
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

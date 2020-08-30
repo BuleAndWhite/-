@@ -1,0 +1,129 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a>{:L('USER_OAUTHADMIN_INDEX')}</a></li>
+			<!--<li ><a href="{:U('Oauthadmin/add')}">添加用户</a></li>-->
+		</ul>
+		<form class="well form-search" method="post" action="{:U('Oauthadmins/index')}">
+			时间：
+			<input type="text" name="start_time" class="js-date" value="{$formget.start_time|default=''}" style="width: 80px;" autocomplete="off">-
+			<input type="text" class="js-date" name="end_time" value="{$formget.end_time|default=''}" style="width: 80px;" autocomplete="off"> &nbsp; &nbsp;
+			关键字：
+			<input type="text" name="keyword" style="width: 200px;" value="{$formget.keyword|default=''}" placeholder="请输入关键字...">
+			<input  type="submit" class="btn btn-primary" value="搜索" />&nbsp; &nbsp;
+			<span style="margin-left:100px; ">累积收益:</span>
+			<span style=" color:#1abc9c">{$userList['totalRevenue']}</span>&nbsp; &nbsp;
+			<span style="margin-left:10px; ">总用户数量:</span>
+			<span style="color:#1abc9c">{$userList['count']}</span>&nbsp; &nbsp;
+			<if condition="$user.user_type eq 2||$user.user_type eq 3||$user.user_type eq 4||$user.user_type eq 5">
+			<span style="margin-left:10px; ">可取款:</span>
+			<span style="color:#1abc9c">{$userList['total']}</span>&nbsp; &nbsp;
+			</if>
+			<span style="margin-left:10px; ">今日新增用户:</span>
+			<span style="color:#1abc9c">{$userList['today']}</span>
+			<if condition="$userOneType eq 3">
+				&nbsp; &nbsp; &nbsp;
+				<span style="margin-left:10px; ">总合伙人:</span>
+				<span style="color:#1abc9c">{$userList['partnerCount']}</span>
+			</if>
+            <if condition="$userOneType eq 3 ||$userOneType eq 4||$userOneType eq 5">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href='{:U("admin/user/owner",array("did"=>$userOneDid,"user_type"=>$userOneType))}'>我的推广码</a>
+            </if>
+
+
+		</form>
+
+		<form method="post" class="js-ajax-form">
+			<table class="table table-hover table-bordered">
+				<thead>
+					<tr>
+						<th align="center">ID</th>
+						<th>来源</th>
+						<th>设备编号</th>
+						<th>用户名</th>
+						<th>手机号</th>
+						<th>头像</th>
+						<th>VIP</th>
+						<th>子用户</th>
+						<!--<th>{:L('BINGDING_ACCOUNT')}</th>-->
+						<th>首次登录时间</th>
+						<th>最后登录时间</th>
+						<th>最后登录IP</th>
+						<th>积分</th>
+
+						<th>状态</th>
+						<th align="center">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+				<php>
+					$user_statuses=array("0"=>"禁言","1"=>"正常");
+					$user_aga=array("0"=>"已禁言","1"=>"正常");
+				</php>
+				<php>
+					$status=array("0"=>"不是会员","1"=>"单次","2"=>"半年","3"=>"一年","4"=>"两年(创客)","5"=>"三年(合伙人)","7"=>"三年(天使机主)","8"=>"三年(机主)");
+				</php>
+					<foreach name="lists" item="vo">
+					<tr>
+						<td align="center">{$vo.id}</td>
+						<td>微信</td>
+						<td>{$vo.parent_did}</td>
+						<td>{$vo.name}</td>
+						<td>{$vo.phone}</td>
+						<td><img width="25" height="25" src="{$vo.avatar}" /></td>
+						<if condition="$user.user_type eq 1">
+
+							<td><a href="javascript:open_iframe_dialog('{:U('comment/commentadmin/settingVip',array('idCard'=>$vo['idcard'],'unionid'=>$vo['unionid']))}','设置VIP')">{$status[$vo['is_vip']]}&nbsp;(设置VIP)</a></td>
+							<else />
+							<td>{$status[$vo['is_vip']]}</td>
+
+						</if>
+						<td><a href="javascript:open_iframe_dialog('{:U('comment/commentadmin/userList',array('unionid'=>$vo['unionid']))}','用户列表')">{$vo['count']}</a></td>
+
+						<!--<td>{$vo['uid']|default='无'}</td>-->						<td>{$vo['time']}</td>
+						<td>{$vo['update_time']}</td>
+
+						<td>{$vo.ip}</td>
+						<td>{$vo.integral}</td>
+						<td >{$user_statuses[$vo['user_status']]}</td>
+
+						<td align="center">
+
+							<if condition="$user.user_type eq 2 ||$user.user_type eq 3 ||$user.user_type eq 4 ||$user.user_type eq 5">
+
+
+							<if condition="$vo.is_vip eq 4 ||$vo.is_vip eq 5 ">
+								<if condition="$vo.is_backstage eq -1">
+									<!--<a href="{:U('admin/user/add',array('role_id'=>$parent_id,'id'=>$vo['id']))}">添加后台账号</a>-->
+									<!--—-->
+									<else />
+									<!--<a href="{:U('admin/user/index')}">查看后台账号</a>-->
+									<!--—-->
+								</if>
+								<else />
+						</if>
+								<else />
+
+
+						</if>
+							<a href="{:U('oauthadmins/delete',array('iweixin d'=>$vo['id']))}" class="js-ajax-delete">{:L('DELETE')}</a>
+							—
+							<a href="{:U('oauthadmins/ban',array('id'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="您确定要拉黑此用户吗?">拉黑</a>|
+							<a href="{:U('oauthadmins/cancelban',array('id'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="您确定要启用此用户吗?">启用</a>
+							<!--—-->
+							<!--<a href="{:U('oauthadmin/isGag',array('unGag'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="您确定要禁言此用户吗?">禁言</a>|-->
+							<!--<a href="{:U('oauthadmin/isGag',array('gag'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="您确定要启用此用户吗?">启用</a>-->
+
+						</td>
+					</tr>
+					</foreach>
+				</tbody>
+			</table>
+			<div class="pagination">{$page}</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

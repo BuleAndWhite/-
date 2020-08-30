@@ -1,0 +1,28 @@
+<div class=" ui-portlet" id="wechat-msg-mine-list">
+		<div>
+			当前公众号：{$weixin_options.app_name}
+		</div>
+		<div style="text-align: center; margin: 10px auto;">
+		</div>
+		<div class="row">
+		<foreach name="list" item="vo">
+			<div class="col-md-4" data-mid="2iNTDvjGboLNriGFn7Wxp8zVoB1382mnIfgMQkTIWb0">
+				<div style="padding:5px;margin-bottom:5px;border:1px solid #DDD;">
+					<p>
+						{$vo.update_time|date='Y-m-d H:i',###}
+					</p>
+					<p title="" data-toggle="tooltip" data-container="body" data-original-title="{$vo.name}">
+						{$vo.name}
+					</p>
+					<div class="appmsg_opr clearfix">
+						<a href="javascript:void(0);" class="col-xs-12 choose-media" data-mid="{$vo.media_id}">
+							<i class="glyphicon glyphicon-check">
+							</i>
+							选择
+						</a>
+					</div>
+				</div>
+			</div>
+</foreach>
+	</div>
+</div>

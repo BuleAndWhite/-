@@ -1,0 +1,9 @@
+[ 2020-07-13T10:35:15+08:00 ] 114.88.206.17 /https://sns.kuaifengpay.com/public/xianyu/resume/20200710/2020-07-101594352762oo2f0rof.pdf
+ERR: 无法加载控制器:Https:
+
+[ 2020-07-13T11:06:45+08:00 ] 114.88.206.17 /Api/User/userInfo
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2020-07-13T11:06:45+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[HY000] [2002] Connection refused
+

@@ -1,0 +1,13 @@
+[ 2019-01-17T14:38:51+08:00 ] 58.39.70.86 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0013s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('58.39.70.86','1','1547707131','1') [ RunTime:0.0034s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='58.39.70.86',`last_login_time`='2019-01-17 14:38:51',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0034s ]
+

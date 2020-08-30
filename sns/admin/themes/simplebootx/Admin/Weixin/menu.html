@@ -1,0 +1,69 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('Weixin/menu')}">{:L('WX_MENU')}</a></li>
+			<li><a href="{:U('Weixin/add_menu','t=b')}">{:L('WX_JUMP_MENU')}</a></li>
+			<li><a href="{:U('Weixin/add_menu','t=c')}">{:L('WX_SENDMSG_MENU')}</a></li>
+			<li><a onclick="if(!confirm('是否确认要修改微信公众号的的菜单，将会覆盖现有菜单')) return false" href="{:U('Weixin/create_menu')}">{:L('WX_CREATE_MENU')}</a></li>
+		</ul>
+		<!-- <form class="well form-search" method="post" action="{:U('AdminPage/index')}">
+			{:L('POST_DATE')}
+			<input type="text" name="start_time" class="js-date" value="{$formget.start_time}" style="width: 80px;" autocomplete="off">-
+			<input autocomplete="off" type="text" class="js-date" name="end_time" value="{$formget.end_time}" style="width: 80px;"> {:L('KEYWORD')}
+			<input type="text" name="keyword" style="width: 200px;" value="{$formget.keyword}" placeholder="{:L('PLEASE_ENTER_KEYWORD')}">
+			<button class="btn btn-primary">{:L('SEARCH')}</button>
+		</form> -->
+		<form class="js-ajax-form" method="post" action="{:U('Weixin/listorders')}">
+			<div class="table-actions">
+				<button class="btn btn-primary btn-small js-ajax-submit" type="submit">{:L('SORT')}</button>
+			</div>
+			<table class="table table-hover table-bordered table-list">
+				<thead>
+					<tr>
+<!-- 						<th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th> -->
+						<th width="50">{:L('SORT')}</th>
+						<th width="55">ID</th>
+						<th width="120">{:L('MENU_NAME')}</th>
+						<th width="120"><span>{:L('MENU_TYPE')}</span></th>
+						<th width="120">{:L('MENU_URL')}</th>
+						<th width="120">{:L('ACTIONS')}</th>
+					</tr>
+				</thead>
+				<php>$type = array('打开网址','回复消息');</php>
+				{$taxonomys}
+				<tfoot>
+					<tr>
+<!-- 						<th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th> -->
+						<th width="50">{:L('SORT')}</th>
+						<th width="55">ID</th>
+						<th width="120">{:L('MENU_NAME')}</th>
+						<th width="120"><span>{:L('MENU_TYPE')}</span></th>
+						<th>{:L('MENU_URL')}</th>
+						<th width="120">{:L('ACTIONS')}</th>
+					</tr>
+				</tfoot>
+			</table>
+			<div class="table-actions">
+<!-- 				<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('Weixin/delete')}" data-subcheck="true" data-msg="你确定删除吗？">{:L('DELETE')}</button> -->
+<button class="btn btn-primary btn-small js-ajax-submit" type="submit">{:L('SORT')}</button>
+			</div>
+			<div class="pagination">{$Page}</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script>
+		setCookie('refersh_time', 0);
+		function refersh_window() {
+			var refersh_time = getCookie('refersh_time');
+			if (refersh_time == 1) {
+				window.location.reload();
+			}
+		}
+		setInterval(function() {
+			refersh_window()
+		}, 2000);
+	</script>
+</body>
+</html>

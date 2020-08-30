@@ -1,0 +1,441 @@
+[ 2020-07-02T10:08:06+08:00 ] 47.103.157.119 /explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2020-07-02T10:08:06+08:00 ] 47.103.157.119 /index.jsp
+ERR: 无法加载控制器:Index.jsp
+
+[ 2020-07-02T10:08:06+08:00 ] 47.103.157.119 /readme.html
+ERR: 无法加载控制器:Readme
+
+[ 2020-07-02T10:08:06+08:00 ] 47.103.157.119 /license.txt
+ERR: 无法加载控制器:License.txt
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /wp-includes/js/wplink.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /wp-admin/js/customize-controls.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /wp-admin/js/nav-menu.js
+ERR: 无法加载控制器:Wp-admin
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /wp-includes/js/plupload/handlers.js
+ERR: 无法加载控制器:Wp-includes
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /wp-includes/js/tinymce/wp-tinymce.js.gz
+ERR: 无法加载控制器:Wp-includes
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /static/.gitignore
+ERR: 无法加载控制器:Static
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /static/js/xd.js
+ERR: 无法加载控制器:Static
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /r/cms/www/red/style/swiper.min.js
+ERR: 无法加载控制器:R
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /wcm/
+ERR: 无法加载控制器:Wcm
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /phpMyAdmin/
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2020-07-02T10:08:07+08:00 ] 47.103.157.119 /phpmyadmin/
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2020-07-02T10:19:12+08:00 ] 114.88.206.17 /Api/Recruitment/label
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_user_eenterpise' doesn't exist
+
+[ 2020-07-02T11:10:19+08:00 ] 47.101.67.212 /explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2020-07-02T11:10:19+08:00 ] 47.101.67.212 /index.jsp
+ERR: 无法加载控制器:Index.jsp
+
+[ 2020-07-02T11:10:19+08:00 ] 47.101.67.212 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2020-07-02T11:10:19+08:00 ] 47.101.67.212 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2020-07-02T11:10:19+08:00 ] 47.101.67.212 /static/.gitignore
+ERR: 无法加载控制器:Static
+
+[ 2020-07-02T11:10:19+08:00 ] 47.101.67.212 /static/js/xd.js
+ERR: 无法加载控制器:Static
+
+[ 2020-07-02T11:10:20+08:00 ] 47.101.67.212 /r/cms/www/red/style/swiper.min.js
+ERR: 无法加载控制器:R
+
+[ 2020-07-02T11:10:20+08:00 ] 47.101.67.212 /wcm/
+ERR: 无法加载控制器:Wcm
+
+[ 2020-07-02T11:10:20+08:00 ] 47.101.67.212 /phpMyAdmin/
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2020-07-02T11:10:20+08:00 ] 47.101.67.212 /phpmyadmin/
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2020-07-02T11:55:36+08:00 ] 101.133.134.231 /explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2020-07-02T11:55:36+08:00 ] 101.133.134.231 /index.jsp
+ERR: 无法加载控制器:Index.jsp
+
+[ 2020-07-02T11:55:37+08:00 ] 101.133.134.231 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2020-07-02T11:55:37+08:00 ] 101.133.134.231 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2020-07-02T11:55:37+08:00 ] 101.133.134.231 /static/.gitignore
+ERR: 无法加载控制器:Static
+
+[ 2020-07-02T11:55:37+08:00 ] 101.133.134.231 /static/js/xd.js
+ERR: 无法加载控制器:Static
+
+[ 2020-07-02T11:55:37+08:00 ] 101.133.134.231 /r/cms/www/red/style/swiper.min.js
+ERR: 无法加载控制器:R
+
+[ 2020-07-02T11:55:37+08:00 ] 101.133.134.231 /wcm/
+ERR: 无法加载控制器:Wcm
+
+[ 2020-07-02T11:55:37+08:00 ] 101.133.134.231 /phpMyAdmin/
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2020-07-02T11:55:37+08:00 ] 101.133.134.231 /phpmyadmin/
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2020-07-02T11:55:38+08:00 ] 47.101.72.39 /explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2020-07-02T11:55:39+08:00 ] 47.101.72.39 /index.jsp
+ERR: 无法加载控制器:Index.jsp
+
+[ 2020-07-02T11:55:39+08:00 ] 47.101.72.39 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2020-07-02T11:55:39+08:00 ] 47.101.72.39 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2020-07-02T11:55:39+08:00 ] 47.101.72.39 /static/.gitignore
+ERR: 无法加载控制器:Static
+
+[ 2020-07-02T11:55:39+08:00 ] 47.101.72.39 /static/js/xd.js
+ERR: 无法加载控制器:Static
+
+[ 2020-07-02T11:55:40+08:00 ] 47.101.72.39 /r/cms/www/red/style/swiper.min.js
+ERR: 无法加载控制器:R
+
+[ 2020-07-02T11:55:40+08:00 ] 47.101.72.39 /wcm/
+ERR: 无法加载控制器:Wcm
+
+[ 2020-07-02T11:55:40+08:00 ] 47.101.72.39 /phpMyAdmin/
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2020-07-02T11:55:40+08:00 ] 47.101.72.39 /phpmyadmin/
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2020-07-02T14:04:29+08:00 ] 114.88.206.17 /Alumnus/gradeDetails
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT az_user u ON u.id = g.uid  WHERE `grade_id` = '8'' at line 1
+
+[ 2020-07-02T14:04:57+08:00 ] 114.88.206.17 /Alumnus/gradeDetails
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT az_user u ON u.id = g.uid  WHERE `grade_id` = '8'' at line 1
+
+[ 2020-07-02T14:04:59+08:00 ] 114.88.206.17 /Alumnus/gradeDetails
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT az_user u ON u.id = g.uid  WHERE `grade_id` = '8'' at line 1
+
+[ 2020-07-02T14:05:00+08:00 ] 114.88.206.17 /Alumnus/gradeDetails
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT az_user u ON u.id = g.uid  WHERE `grade_id` = '8'' at line 1
+
+[ 2020-07-02T14:05:00+08:00 ] 114.88.206.17 /Alumnus/gradeDetails
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT az_user u ON u.id = g.uid  WHERE `grade_id` = '8'' at line 1
+
+[ 2020-07-02T14:33:10+08:00 ] 114.88.206.17 /Alumnus/gradeJoin
+ERR: Think\Controller:getId方法不存在！
+
+[ 2020-07-02T14:33:12+08:00 ] 114.88.206.17 /Alumnus/gradeJoin
+ERR: Think\Controller:getId方法不存在！
+
+[ 2020-07-02T14:34:05+08:00 ] 114.88.206.17 /Alumnus/gradeJoin
+ERR: Think\Controller:getId方法不存在！
+
+[ 2020-07-02T14:34:06+08:00 ] 114.88.206.17 /Alumnus/gradeJoin
+ERR: Think\Controller:getId方法不存在！
+
+[ 2020-07-02T14:34:07+08:00 ] 114.88.206.17 /Alumnus/gradeJoin
+ERR: Think\Controller:getId方法不存在！
+
+[ 2020-07-02T14:34:09+08:00 ] 114.88.206.17 /Alumnus/gradeJoin
+ERR: Think\Controller:getId方法不存在！
+
+[ 2020-07-02T14:34:10+08:00 ] 114.88.206.17 /Alumnus/gradeJoin
+ERR: Think\Controller:getId方法不存在！
+
+[ 2020-07-02T18:33:01+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T18:33:10+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T18:33:22+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T18:43:40+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T18:46:42+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T18:46:47+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T18:50:28+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T18:55:07+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:36:51+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:49+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:50+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:51+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:51+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:53+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:53+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:54+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:55+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:55+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:37:56+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:40:39+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:40:40+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:40:41+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:40:41+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:40:41+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:42:17+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:42:18+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:42:18+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:42:19+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T19:43:38+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T20:06:05+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:06:07+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:06:08+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:06:10+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:02+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:03+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:03+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:04+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:05+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:06+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:06+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:07+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:29+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:30+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:31+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:31+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:39+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:40+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:41+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:42+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:43+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:43+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:44+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:44+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:08:45+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:09:07+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:09:58+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:01+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:31+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:32+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:32+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:33+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:33+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:36+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:36+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:38+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:38+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:39+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:39+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:40+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:40+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:43+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:47+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:48+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:10:48+08:00 ] 114.88.206.17 /JobSearch/recruitmentChatList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recruitment' in 'where clause'
+
+[ 2020-07-02T20:13:03+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T20:14:03+08:00 ] 114.88.206.17 /JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T20:15:05+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T22:39:51+08:00 ] 116.238.204.66 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T22:40:08+08:00 ] 116.238.204.66 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T22:40:16+08:00 ] 116.238.204.66 /Api/JobSearch/myDelivery
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.enterprise' in 'field list'
+
+[ 2020-07-02T22:40:18+08:00 ] 116.238.204.66 /Api/JobSearch/categoryFilterList
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'spec_infon_name' in 'field list'
+
+[ 2020-07-02T22:40:22+08:00 ] 116.238.204.66 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T22:40:26+08:00 ] 116.238.204.66 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T22:40:43+08:00 ] 116.238.204.66 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-02T23:56:17+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.spec_id' in 'on clause'
+
+[ 2020-07-02T23:57:55+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rename FROM az_spec_label s INNER JOIN az_spec_info as s1 on s1.id = s.spec_info' at line 1
+
+[ 2020-07-02T23:57:57+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rename FROM az_spec_label s INNER JOIN az_spec_info as s1 on s1.id = s.spec_info' at line 1
+

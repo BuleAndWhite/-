@@ -1,0 +1,93 @@
+<admintpl file="header"/>
+</head>
+<body>
+<div class="wrap">
+    <ul class="nav nav-tabs">
+        <li class="active"><a>口令码</a></li>
+    </ul>
+    <form class="well form-search" method="post" action="{:U('indexadmin/password')}">
+        <div class="table-actions">
+            生成口令码：
+            <input type="text" name="count" value="" placeholder="请输入要生成的口令码数量...">
+            <input type="submit" class="btn btn-primary" value="生成"/>
+        </div>
+    </form>
+    <form class="well form-search" method="post" action="{:U('indexadmin/export')}">
+        <div class="table-actions">
+            导出口令码：
+            <input type="text" name="start_time" value="" placeholder="请输入开始数字">
+            <input type="text" name="end_time" value="" placeholder="请输入结束数字">
+            <input type="submit" class="btn btn-primary" value="导出"/>
+        </div>
+    </form>
+    <form class="well form-search" method="post" action="{:U('indexadmin/index')}">
+
+        时间：
+        <input type="text" name="start_time" class="js-date" value="{$formget.start_time|default=''}"
+               style="width: 80px;" autocomplete="off">-
+        <input type="text" class="js-date" name="end_time" value="{$formget.end_time}" style="width: 80px;"
+               autocomplete="off"> &nbsp; &nbsp;
+        关键字：
+        <input type="text" name="keyword" style="width: 200px;" value="{$formget.keyword}" placeholder="请输入口令码...">
+        使用状态：
+        <select name="status" >
+            <option value="0"selected = "selected"  >全部</option>
+            <option value="1"  >未使用</option>
+            <option value="-1">已使用</option>
+        </select>
+        <input type="submit" class="btn btn-primary" value="搜索"/>
+    </form>
+    <form class="js-ajax-form" action="" method="post">
+        <div class="pagination">{$page}</div>
+        <table class="table table-hover table-bordered table-list">
+            <thead>
+            <tr>
+                <th width="50">Id</th>
+                <th width="50">用户</th>
+                <th width="50">口令</th>
+                <th width="70">创建时间</th>
+                <th width="50">{:L('STATUS')}</th>
+            </tr>
+            </thead>
+            <php>
+                $top_status=array("1"=>"未使用","-1"=>"已使用");
+
+            </php>
+            <foreach name="forumPassword" item="vo">
+                <tr>
+                    <td>{$vo.id}</td>
+                    <td> {$vo.user_nicename}</td>
+                    <td>{$vo.password}</td>
+                    <td>{$vo.time}</td>
+                    <td>{$top_status[$vo['status']]}
+                    </td>
+                </tr>
+            </foreach>
+            <tfoot>
+            <tr>
+                <th width="50">Id</th>
+                <th width="50">用户</th>
+                <th width="50">口令</th>
+                <th width="70">创建时间</th>
+                <th width="50">{:L('STATUS')}</th>
+            </tr>
+            </tfoot>
+        </table>
+        <div class="pagination">{$page}</div>
+    </form>
+    <!--<form class="form-search js-ajax-form" method="post">-->
+    <!--<div class="table-actions">-->
+    <!--口令码:-->
+    <!--<input type="text" style="width: 200px; color: #1abc9c"readonly="readonly" value="{$password|default=''}" placeholder="请输入关键字...">-->
+
+    <!--<button  class="btn btn-primary btn-primary js-ajax-submit" type="submit"-->
+    <!--data-action="{:U('indexadmin/password',array('password'=>$password))}" >生成-->
+    <!--</button>-->
+    <!--</div>-->
+    <!--</form>-->
+
+
+</div>
+<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

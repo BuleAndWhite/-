@@ -1,0 +1,322 @@
+<admintpl file="header" />
+<style>
+#comment{width:400px}
+.wrap select{width:415px}
+.wrap .controls select.form-control{width:auto;min-width:72px;}
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.submsg-title {
+    padding: 5px 14px;
+}
+.submsg-title img {
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+.weixin_modal {
+    display: block;
+    left: 0px;
+    width: 100%; 
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: 10000;
+}
+.weixin_modal,.modal-backdrop{display:none}
+.modal-content {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: 0;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ccc;
+}
+.modal-backdrop.in{
+	opacity: 0.3;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857143px;
+    background:#fff;
+}
+.modal-header h3 {
+    color: #323336;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.modal-dialog {
+	width:900px;
+    margin: 30px auto;
+}
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: none;
+    opacity: 0.2;
+    width:18px;
+    filter: alpha(opacity=20);
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.col-md-4 {
+    width: 29%;
+    float:left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.appmsg {
+    border: 1px solid #e7e7eb;
+    margin-bottom: 10px;
+}
+.appmsg_content {
+    padding: 0 14px;
+    position: relative;
+}
+.appmsg_content .cover {
+	width:100%;
+    height: 120px;
+    overflow: hidden;
+}
+.appmsg_desc {
+    max-height: 80px;
+    overflow: hidden;
+    padding: 5px 0 10px;
+    word-wrap: break-word;
+/*     word-break: break-all; */
+}
+.appmsg_opr a {
+    display: block;
+    padding: 8px 0;
+}
+.appmsg_opr {
+    background-color: #f4f4f4;
+    border-top: 1px solid #e7e7eb;
+    text-align: center;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+</style>
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('WeixinBroads/index')}">{:L('WX_LIST')}</a></li>
+			<li class="active"><a href="{:U('WeixinBroads/add')}">{:L('WX_BROADS')}</a></li>
+		</ul>
+
+		<form class="form-horizontal js-ajax-form" action="{:U('WeixinBroads/add_post')}" method="post">
+			<fieldset>
+				<div class="tabbable">
+					<div class="tab-content">
+						<div class="tab-pane active" id="C">
+							<fieldset>
+								
+								<div class="control-group">
+									<label class="control-label">{:L('NEWS_TYPE')}</label>
+									<div class="controls">
+										<select name="info[msgtype]" class="msg_type">
+											<php>foreach($msg_type as $k => $v){
+											
+											</php>
+											<option value="{$k}" <eq name="k" value="$send_info['msgtype']">selected</eq>>{$v}</option>
+											<php>}</php>
+											
+										</select><span class="form-required">*</span>
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">{:L('WX_SUCAI')}</label>
+									<div class="controls">
+										<input type="text" name="info[media_id]" readonly style="cursor: not-allowed;color: #999;" value="{$send_info.media_id}" id="comment"><span class="form-required">*</span>
+										
+										
+										
+										
+									</div>
+									
+								</div>
+								<div class="control-group">
+									<label class="control-label"></label>
+									<div class="controls">
+									<button class="btn btn-primary btn-small" type="button" data-toggle="modal" >选择素材</button> 选择微信素材中心的素材
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">{:L('SEND_TYPE')}</label>
+									<div class="controls">
+										<label class="radio inline" for="active_true"><input type="radio" name="info[send_type]" value="0" checked id="active_true">所有人</label>
+										<label class="radio inline" for="active_false"><input type="radio" name="info[send_type]" value="1" <eq name="send_info.send_type" value="1">checked</eq> id="active_false">分组</label>
+									</div>
+								</div>
+								<div class="control-group group_list" <empty name="send_info.send_type">style="display:none"</empty>>
+									<label class="control-label">{:L('GROUP_LIST')}</label>
+									<div class="controls">
+										<select name="info[group_id]" class="msg_type">
+											<php>foreach($group_list['groups'] as $k => $v){
+											
+											</php>
+											<option value="{$v['id']}" <eq name="v['id']" value="$send_info['group_id']">selected</eq>>{$v['name']}</option>
+											<php>}</php>
+											
+										</select><span class="form-required">*</span>
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">{:L('BROADS_TIME')}</label>
+									<div class="controls">
+										<select name="sendtime[year]" class="form-control" id="WxTimingBroadSendtimeYear">
+											<php>for($i=2016;$i<=2036;$i++){
+								            </php>
+								            <option value="{$i}" <if condition="$i eq ($send_info ? date('Y',$send_info['sendtime']) : date('Y'))">selected</if>>{$i}</option>
+								            <php>
+								            }</php>
+								        </select> - <select name="sendtime[month]" class="form-control" id="WxTimingBroadSendtimeMonth">
+								            
+								            <php>for($i=1;$i<=12;$i++){
+								            </php>
+								            <option value="{:str_pad($i,2,'0',STR_PAD_LEFT)}" <if condition="$i eq ($send_info ? date('m',$send_info['sendtime']) : date('m'))">selected</if>>{$i}月</option>
+								            <php>
+								            }</php>
+								        </select> - <select name="sendtime[day]" class="form-control" id="WxTimingBroadSendtimeDay">
+								            <php>for($i=1;$i<=31;$i++){
+								            </php>
+								            <option value="{:str_pad($i,2,'0',STR_PAD_LEFT)}" <if condition="$i eq ($send_info ? date('d',$send_info['sendtime']) : date('d'))">selected</if>>{:str_pad($i,2,'0',STR_PAD_LEFT)}</option>
+								            <php>
+								            }</php>
+								        </select> &nbsp;&nbsp;&nbsp;<select name="sendtime[hour]" class="form-control" id="WxTimingBroadSendtimeHour">
+								             <php>for($i=0;$i<=23;$i++){
+								            </php>
+								            <option value="{:str_pad($i,2,'0',STR_PAD_LEFT)}" <if condition="$i eq ($send_info ? date('H',$send_info['sendtime']) : 13)">selected</if>>{:str_pad($i,2,'0',STR_PAD_LEFT)}</option>
+								            <php>
+								            }</php>
+								        </select> : <select name="sendtime[min]" class="form-control" id="WxTimingBroadSendtimeMin">
+								       	 <php>for($i=0;$i<=59;$i++){
+								            </php>
+								            <option value="{:str_pad($i,2,'0',STR_PAD_LEFT)}" <if condition="$i eq ($send_info ? date('i',$send_info['sendtime']) : 0)">selected</if>>{:str_pad($i,2,'0',STR_PAD_LEFT)}</option>
+								            <php>
+								            }</php>
+								        </select><span class="form-required">*</span>
+									</div>
+								</div>
+							</fieldset>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-actions">
+					<input type="hidden" name="info[id]" value="{$send_info.id}" />
+					<button type="submit" class="btn btn-primary  js-ajax-submit">{:L("SAVE")}</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	
+	
+	
+	<div class="weixin_modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close btn" data-dismiss="modal" aria-hidden="true">
+					×
+				</button>
+				<h3 id="myModalLabel">
+					选择微信素材
+				</h3>
+			</div>
+			<div class="modal-body" style="max-height: 550px; overflow-y: auto;">
+			
+				
+					</div>
+					<div style="text-align:center;margin:10px auto;">
+					</div>
+				</div>
+			</div>
+</div>
+<div class="modal-backdrop  in"></div>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script>
+	$(function(){
+		$('button.close').click(function(){
+			$('.modal-backdrop,.weixin_modal').hide();
+		});
+		var html = '<img src="__TMPL__/Public/assets/images/wheel_throbber.gif"> 正在加载...';
+		$('button.btn-small').click(function(){
+			$('.modal-body').html(html);
+			var type = $('.msg_type').val();
+			$.get("{:U('Weixin/select')}",{type:type},function(data){
+				$('.modal-body').html(data);
+			});
+			$('.modal-backdrop,.weixin_modal').show();
+		});
+		$('.choose-media').live('click',function(){
+			$('#comment').val($(this).attr('data-mid'));
+			$('.modal-backdrop,.weixin_modal').hide();
+		});
+		$('#active_false').click(function(){
+			$('.group_list').show();
+		});
+		$('#active_true').click(function(){
+			$('.group_list').hide();
+		});
+	})
+	</script>
+</body>
+</html>

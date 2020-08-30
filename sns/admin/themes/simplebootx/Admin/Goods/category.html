@@ -1,0 +1,43 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('Goods/category')}">商品分类</a></li>
+			<li><a href="{:U('Goods/add_cat')}">添加分类</a></li>
+		</ul>
+		<form method="post" class="js-ajax-form" action="{:U('Goods/listorders_cat')}">
+			<div class="table-actions">
+				<button type="submit" class="btn btn-primary btn-small js-ajax-submit">{:L('SORT')}</button>
+			</div>
+			<table class="table table-hover table-bordered table-list">
+				<thead>
+					<tr>
+						<th width="50">{:L('SORT')}</th>
+						<th width="50">ID</th>
+						<th>分类名称</th>
+<!-- 						<th>分类类型</th> -->
+						<th>{:L('ACTIONS')}</th>
+					</tr>
+				</thead>
+				<tbody>
+					{$taxonomys}
+				</tbody>
+				<tfoot>
+					<tr>
+						<th width="50">{:L('SORT')}</th>
+						<th width="50">ID</th>
+						<th>分类名称</th>
+<!-- 						<th>分类类型</th> -->
+						<th>{:L('ACTIONS')}</th>
+					</tr>
+				</tfoot>
+			</table>
+			<div class="table-actions">
+				<button type="submit" class="btn btn-primary btn-small js-ajax-submit">{:L('SORT')}</button>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+[ 2019-01-03T12:03:34+08:00 ] 101.41.232.161 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'amita' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '63' AND `status` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('101.41.232.161','63','1546488214','1') [ RunTime:0.0684s ]
+SQL: UPDATE `az_users` SET `user_login`='amita',`user_pass`='###c7ee4434e17bc5205012943826e8ce5e',`user_nicename`=NULL,`user_email`='amita@163.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='101.41.232.161',`last_login_time`='2019-01-03 12:03:34',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`='T20180024',`parent`='1',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 63 [ RunTime:0.0241s ]
+
+[ 2019-01-03T12:10:58+08:00 ] 117.136.8.69 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+
+[ 2019-01-03T12:11:03+08:00 ] 117.136.8.69 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'amita' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2019-01-03T12:11:06+08:00 ] 117.136.8.69 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'amita' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '63' AND `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('117.136.8.69','63','1546488666','1') [ RunTime:0.0039s ]
+SQL: UPDATE `az_users` SET `user_login`='amita',`user_pass`='###c7ee4434e17bc5205012943826e8ce5e',`user_nicename`=NULL,`user_email`='amita@163.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='117.136.8.69',`last_login_time`='2019-01-03 12:11:06',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`='T20180024',`parent`='1',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 63 [ RunTime:0.0034s ]
+
+[ 2019-01-03T12:11:33+08:00 ] 101.41.232.161 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+
+[ 2019-01-03T12:11:36+08:00 ] 101.41.232.161 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'amita' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '63' AND `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('101.41.232.161','63','1546488696','1') [ RunTime:0.0037s ]
+SQL: UPDATE `az_users` SET `user_login`='amita',`user_pass`='###c7ee4434e17bc5205012943826e8ce5e',`user_nicename`=NULL,`user_email`='amita@163.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='101.41.232.161',`last_login_time`='2019-01-03 12:11:36',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`='T20180024',`parent`='1',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 63 [ RunTime:0.0043s ]
+

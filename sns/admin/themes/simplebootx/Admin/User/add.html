@@ -1,0 +1,65 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+
+
+			<if condition="$userOneType eq 2 ">
+				<li><a href="{:U('user/index')}">{:L('ADMIN_USER_INDEX')}</a></li>
+				<li  class="active"><a href="{:U('user/edit')}">添加</a></li>
+				<li ><a href='{:U("user/owner",array("did"=>$userOneDid))}'>我的推广码</a></li>
+				<elseif condition="$userOneType eq 3"/>
+				<li><a href='{:U("user/owner",array("did"=>$userOneDid))}'>我的推广码</a></li>
+				<else />
+				<li ><a href="{:U('user/index')}">{:L('ADMIN_USER_INDEX')}</a></li>
+				<li class="active"><a href="{:U('user/edit')}">添加</a></li>
+			</if>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('User/add_post')}">
+			<fieldset>
+				<input type="hidden" name="parent" value="{$role_id}" />
+				<input type="hidden" name="wx_id" value="{$id}" />
+				<input type="hidden" name="user_id" value="{$id}" />
+				<div class="control-group">
+					<label class="control-label">{:L('USERNAME')}</label>
+					<div class="controls">
+						<input type="text" name="user_login">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('PASSWORD')}</label>
+					<div class="controls">
+						<input type="password" name="user_pass">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('EMAIL')}</label>
+					<div class="controls">
+						<input type="text" name="user_email">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">设备编码</label>
+					<div class="controls">
+						<input type="text" name="machine_code">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('ROLE')}</label>
+					<div class="controls">
+						<foreach name="roles" item="vo">
+						<label class="checkbox inline"><input value="{$vo.id}" type="checkbox" name="role_id[]">{$vo.name}</label>
+						</foreach>
+					</div>
+				</div>
+			</fieldset>
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('ADD')}</button>
+				<a class="btn" href="{:U('user/index')}">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

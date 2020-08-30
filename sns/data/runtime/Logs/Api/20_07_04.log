@@ -1,0 +1,12 @@
+[ 2020-07-04T16:55:03+08:00 ] 223.104.210.46 /Api/User/personalInformation
+ERR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'birthday' at row 1
+
+[ 2020-07-04T16:56:16+08:00 ] 223.104.210.46 /Api/User/personalInformation
+ERR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'birthday' at row 1
+
+[ 2020-07-04T16:56:59+08:00 ] 223.104.210.46 /Api/User/personalInformation
+ERR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'birthday' at row 1
+
+[ 2020-07-04T17:43:23+08:00 ] 223.104.210.46 /Api/User/resumePublic
+ERR: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'birthday' at row 1
+

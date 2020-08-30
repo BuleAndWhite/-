@@ -1,0 +1,313 @@
+[ 2018-12-13T12:14:08+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0016s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('116.238.72.41','1','1544674448','1') [ RunTime:0.0067s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='116.238.72.41',`last_login_time`='2018-12-13 12:14:08',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0103s ]
+
+[ 2018-12-13T12:14:20+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'amita' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2018-12-13T12:14:24+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'amita' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2018-12-13T12:14:28+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'amita' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '63' AND `status` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('116.238.72.41','63','1544674467','1') [ RunTime:0.0245s ]
+SQL: UPDATE `az_users` SET `user_login`='amita',`user_pass`='###c7ee4434e17bc5205012943826e8ce5e',`user_nicename`=NULL,`user_email`='amita@163.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='116.238.72.41',`last_login_time`='2018-12-13 12:14:28',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`='T20180024',`parent`='1',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 63 [ RunTime:0.0320s ]
+
+[ 2018-12-13T12:16:11+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2018-12-13T12:16:15+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('116.238.72.41','1','1544674575','1') [ RunTime:0.0059s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='116.238.72.41',`last_login_time`='2018-12-13 12:16:15',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0158s ]
+
+[ 2018-12-13T12:16:20+08:00 ] 116.238.72.41 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-13T12:16:27+08:00 ] 116.238.72.41 /index.php?g=Admin&m=user&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-13T12:16:42+08:00 ] 116.238.72.41 /index.php?g=Admin&m=User&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options_link` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `az_weixin_options_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `az_weixin_options` WHERE `id` IN ('115','123') ORDER BY FIND_IN_SET(id,"115,123")  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0016s ]
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+SQL: SHOW COLUMNS FROM `az_user` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `az_role` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `az_users` WHERE `user_email` = '14657476@qq.com' LIMIT 1   [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_users` (`parent`,`wx_id`,`user_login`,`user_pass`,`user_email`,`machine_code`) VALUES ('1','0','ceshi','###580844c34c1f4740325c3f18cc2cb50b','14657476@qq.com','') [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0016s ]
+SQL: INSERT INTO `az_role_user` (`role_id`,`user_id`) VALUES ('8','166') [ RunTime:0.0227s ]
+
+[ 2018-12-13T12:16:42+08:00 ] 116.238.72.41 /index.php?g=Admin&m=user&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-13T12:16:49+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0016s ]
+
+[ 2018-12-13T12:17:39+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0013s ]
+
+[ 2018-12-13T12:17:45+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2018-12-13T12:17:51+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2018-12-13T12:17:53+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0013s ]
+
+[ 2018-12-13T12:18:08+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0016s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('116.238.72.41','166','1544674688','1') [ RunTime:0.0039s ]
+SQL: UPDATE `az_users` SET `user_login`='ceshi',`user_pass`='###580844c34c1f4740325c3f18cc2cb50b',`user_nicename`=NULL,`user_email`='14657476@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='116.238.72.41',`last_login_time`='2018-12-13 12:18:08',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`=NULL,`parent`='1',`wx_id`='0',`machine_code`='',`q_r_code`=NULL,`password_code`=NULL WHERE `id` = 166 [ RunTime:0.0040s ]
+
+[ 2018-12-13T12:18:46+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2018-12-13T12:18:51+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2018-12-13T12:18:58+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('116.238.72.41','166','1544674738','1') [ RunTime:0.0296s ]
+SQL: UPDATE `az_users` SET `user_login`='ceshi',`user_pass`='###580844c34c1f4740325c3f18cc2cb50b',`user_nicename`=NULL,`user_email`='14657476@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='116.238.72.41',`last_login_time`='2018-12-13 12:18:58',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`=NULL,`parent`='1',`wx_id`='0',`machine_code`='',`q_r_code`=NULL,`password_code`=NULL WHERE `id` = 166 [ RunTime:0.0036s ]
+
+[ 2018-12-13T12:19:09+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2018-12-13T12:19:14+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('116.238.72.41','1','1544674754','1') [ RunTime:0.0034s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='116.238.72.41',`last_login_time`='2018-12-13 12:19:14',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0033s ]
+
+[ 2018-12-13T12:19:18+08:00 ] 116.238.72.41 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-13T12:19:24+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Rbac&a=authorize&id=8
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2018-12-13T12:19:32+08:00 ] 116.238.72.41 /index.php?g=Admin&m=rbac&a=authorize_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options_link` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `az_weixin_options_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `az_weixin_options` WHERE `id` IN ('115','123') ORDER BY FIND_IN_SET(id,"115,123")  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_role` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+SQL: SHOW COLUMNS FROM `az_auth_access` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_menu` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_auth_rule` [ RunTime:0.0015s ]
+SQL: DELETE FROM `az_auth_access` WHERE `role_id` = 8 AND `type` = 'admin_url' [ RunTime:0.0044s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/extension/default','admin_url') [ RunTime:0.0038s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/default','admin_url') [ RunTime:0.0034s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 54 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/index','admin_url') [ RunTime:0.0038s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/listorders','admin_url') [ RunTime:0.0033s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/toggle','admin_url') [ RunTime:0.0033s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/delete','admin_url') [ RunTime:0.0034s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 58 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/edit','admin_url') [ RunTime:0.0032s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 59 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/edit_post','admin_url') [ RunTime:0.0034s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/add','admin_url') [ RunTime:0.0047s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/add_post','admin_url') [ RunTime:0.0033s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 158 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/ban','admin_url') [ RunTime:0.0036s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 159 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/slide/cancelban','admin_url') [ RunTime:0.0033s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 132 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','user/indexadmin/default','admin_url') [ RunTime:0.0034s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 133 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','user/indexadmin/default1','admin_url') [ RunTime:0.0075s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 134 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','user/indexadmin/index','admin_url') [ RunTime:0.0262s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 135 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','user/indexadmin/ban','admin_url') [ RunTime:0.0033s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 136 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','user/indexadmin/cancelban','admin_url') [ RunTime:0.0102s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 137 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','user/oauthadmin/index','admin_url') [ RunTime:0.0070s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 138 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','user/oauthadmin/delete','admin_url') [ RunTime:0.0071s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 168 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/order/default','admin_url') [ RunTime:0.0037s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/orders/recharge','admin_url') [ RunTime:0.0290s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 175 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/goods/default','admin_url') [ RunTime:0.0331s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 176 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/goods/index','admin_url') [ RunTime:0.0032s ]
+SQL: SELECT `app`,`model`,`action` FROM `az_menu` WHERE `id` = 177 LIMIT 1   [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_auth_access` (`role_id`,`rule_name`,`type`) VALUES ('8','admin/goods/category','admin_url') [ RunTime:0.0036s ]
+
+[ 2018-12-13T12:19:39+08:00 ] 116.238.72.41 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0014s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('116.238.72.41','166','1544674779','1') [ RunTime:0.0965s ]
+SQL: UPDATE `az_users` SET `user_login`='ceshi',`user_pass`='###580844c34c1f4740325c3f18cc2cb50b',`user_nicename`=NULL,`user_email`='14657476@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='116.238.72.41',`last_login_time`='2018-12-13 12:19:39',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`=NULL,`parent`='1',`wx_id`='0',`machine_code`='',`q_r_code`=NULL,`password_code`=NULL WHERE `id` = 166 [ RunTime:0.0055s ]
+
+[ 2018-12-13T15:38:31+08:00 ] 58.246.141.99 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0025s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0025s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('58.246.141.99','166','1544686711','1') [ RunTime:0.0035s ]
+SQL: UPDATE `az_users` SET `user_login`='ceshi',`user_pass`='###580844c34c1f4740325c3f18cc2cb50b',`user_nicename`=NULL,`user_email`='14657476@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='58.246.141.99',`last_login_time`='2018-12-13 15:38:31',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`=NULL,`parent`='1',`wx_id`='0',`machine_code`='',`q_r_code`=NULL,`password_code`=NULL WHERE `id` = 166 [ RunTime:0.0032s ]
+
+[ 2018-12-13T19:09:28+08:00 ] 118.212.206.75 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'ceshi' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0016s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '166' AND `status` = 1  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0016s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('118.212.206.75','166','1544699368','1') [ RunTime:0.0104s ]
+SQL: UPDATE `az_users` SET `user_login`='ceshi',`user_pass`='###580844c34c1f4740325c3f18cc2cb50b',`user_nicename`=NULL,`user_email`='14657476@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='118.212.206.75',`last_login_time`='2018-12-13 19:09:28',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`=NULL,`parent`='1',`wx_id`='0',`machine_code`='',`q_r_code`=NULL,`password_code`=NULL WHERE `id` = 166 [ RunTime:0.0108s ]
+

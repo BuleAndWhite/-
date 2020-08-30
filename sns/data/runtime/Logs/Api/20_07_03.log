@@ -1,0 +1,156 @@
+[ 2020-07-03T00:01:16+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rename FROM az_spec_label s INNER JOIN az_spec_info as s1 on s1.id = s.spec_info' at line 1
+
+[ 2020-07-03T00:02:22+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's1.spec_info_names' in 'field list'
+
+[ 2020-07-03T00:03:06+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's1.spec_info_names' in 'field list'
+
+[ 2020-07-03T00:03:09+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's1.spec_info_names' in 'field list'
+
+[ 2020-07-03T00:03:10+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's1.spec_info_names' in 'field list'
+
+[ 2020-07-03T00:03:12+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's1.spec_info_names' in 'field list'
+
+[ 2020-07-03T00:03:34+08:00 ] 116.238.204.66 /Api/Recruitment/Index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.spec_id' in 'on clause'
+
+[ 2020-07-03T13:07:18+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T13:12:14+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T13:12:17+08:00 ] 114.88.206.17 /Api/JobSearch/myDelivery
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.enterprise' in 'field list'
+
+[ 2020-07-03T13:12:27+08:00 ] 114.88.206.17 /Api/JobSearch/positionFilter
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T13:12:29+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T16:46:57+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T16:52:02+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T16:52:50+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T16:55:18+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T16:57:43+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T16:58:37+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:03:20+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:03:41+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:05:59+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:07:09+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:07:34+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:10:21+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:10:59+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:12:05+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:12:31+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:13:44+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:14:39+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:14:55+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:16:03+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:16:48+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:17:09+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:17:16+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:18:13+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:18:29+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:18:55+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:18:57+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:19:34+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:22:55+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:27:49+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:28:12+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:28:32+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:28:41+08:00 ] 114.88.206.17 /Api/JobSearch/myDelivery
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.enterprise' in 'field list'
+
+[ 2020-07-03T17:28:51+08:00 ] 114.88.206.17 /Api/JobSearch/myDelivery
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.enterprise' in 'field list'
+
+[ 2020-07-03T17:28:51+08:00 ] 114.88.206.17 /Api/JobSearch/recruitment
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:29:44+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:32:04+08:00 ] 114.88.206.17 /Recruitment/Index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_industry' doesn't exist
+
+[ 2020-07-03T17:41:11+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:44:53+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:45:09+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+
+[ 2020-07-03T17:46:00+08:00 ] 114.88.206.17 /Api/JobSearch/recruitmentHot
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.enterprise' in 'field list'
+

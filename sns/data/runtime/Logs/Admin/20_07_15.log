@@ -1,0 +1,225 @@
+[ 2020-07-15T11:19:00+08:00 ] 114.88.206.17 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('114.88.206.17','1','1594783140','1') [ RunTime:0.0036s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='https://wx.qlogo.cn/mmopen/vi_32/b9Z3IR3VI7cPYfmLsUo76VI0ib77jmul6wQbjD1KW2JkgibKyaO1JMV108oCwXzdX4KTNGo1tmS3GVSr6rfKvTuA/132',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='114.88.206.17',`last_login_time`='2020-07-15 11:19:00',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0035s ]
+
+[ 2020-07-15T11:19:04+08:00 ] 114.88.206.17 /index.php?g=Admin&m=CircleOfFriends&a=index&menuid=189
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofModel
+NOTIC: D方法实例化没找到模型类Common\Model\LabelModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofAttachmentModel
+
+[ 2020-07-15T11:19:24+08:00 ] 114.88.206.17 /index.php?g=Admin&m=CircleOfFriends&a=index&menuid=189
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofModel
+NOTIC: D方法实例化没找到模型类Common\Model\LabelModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofAttachmentModel
+
+[ 2020-07-15T11:19:28+08:00 ] 114.88.206.17 /index.php?g=Admin&m=CircleOfFriends&a=circle_add
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofModel
+NOTIC: D方法实例化没找到模型类Common\Model\LabelModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofAttachmentModel
+
+[ 2020-07-15T11:19:38+08:00 ] 114.88.206.17 /index.php?g=Admin&m=CircleOfFriends&a=index&menuid=189
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofModel
+NOTIC: D方法实例化没找到模型类Common\Model\LabelModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofAttachmentModel
+
+[ 2020-07-15T12:15:16+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=circle_list&menuid=184
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:15:24+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=post_reply&menuid=186
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:15:25+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=index&menuid=185
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:15:28+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=index&menuid=185
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:15:32+08:00 ] 114.88.206.17 /index.php?g=Admin&m=CircleOfFriends&a=index&menuid=189
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofModel
+NOTIC: D方法实例化没找到模型类Common\Model\LabelModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofAttachmentModel
+
+[ 2020-07-15T12:15:35+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Message&a=index&menuid=192
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2020-07-15T12:15:39+08:00 ] 114.88.206.17 /index.php?g=Admin&m=CircleOfFriends&a=index&menuid=189
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofModel
+NOTIC: D方法实例化没找到模型类Common\Model\LabelModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofAttachmentModel
+
+[ 2020-07-15T12:15:40+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=circle_list&menuid=184
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:16:13+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Rbac&a=authorize&id=18
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2020-07-15T12:16:15+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Rbac&a=authorize&id=18
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2020-07-15T12:16:17+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Rbac&a=authorize&id=18
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2020-07-15T12:16:18+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Rbac&a=authorize&id=18
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2020-07-15T12:16:19+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Rbac&a=authorize&id=18
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2020-07-15T12:16:37+08:00 ] 114.88.206.17 /index.php?g=Admin&m=ManagementH5&a=h5_list&menuid=221
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_h5_extension' doesn't exist
+
+[ 2020-07-15T12:16:39+08:00 ] 114.88.206.17 /index.php?g=Admin&m=ForHost&a=index&menuid=214
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_for_host' doesn't exist
+
+[ 2020-07-15T12:16:41+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Positioning&a=index&menuid=209
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\AddressModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_address' doesn't exist
+
+[ 2020-07-15T12:16:44+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Feedback&a=index&menuid=207
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2020-07-15T12:16:51+08:00 ] 114.88.206.17 /index.php?g=Admin&m=ManagementH5&a=h5_list&menuid=221
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_h5_extension' doesn't exist
+
+[ 2020-07-15T12:17:03+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Order&a=recharge&menuid=210
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.status' in 'field list'
+
+[ 2020-07-15T12:17:10+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=circle_list&menuid=184
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:17:10+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=index&menuid=185
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:17:11+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=post_reply&menuid=186
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:17:12+08:00 ] 114.88.206.17 /index.php?g=Admin&m=CircleOfFriends&a=index&menuid=189
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofModel
+NOTIC: D方法实例化没找到模型类Common\Model\LabelModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofAttachmentModel
+
+[ 2020-07-15T12:17:13+08:00 ] 114.88.206.17 /index.php?g=Admin&m=CircleOfFriends&a=index&menuid=189
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofModel
+NOTIC: D方法实例化没找到模型类Common\Model\LabelModel
+NOTIC: D方法实例化没找到模型类Common\Model\SofAttachmentModel
+
+[ 2020-07-15T12:17:16+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=circle_list&menuid=184
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:17:17+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=post_reply&menuid=186
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:17:18+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=index&menuid=185
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-15T12:17:18+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=circle_type&menuid=187
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+

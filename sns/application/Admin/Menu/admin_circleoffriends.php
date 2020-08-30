@@ -1,0 +1,40 @@
+<?php
+return array (
+  'app' => 'Admin',
+  'model' => 'CircleOfFriends',
+  'action' => 'default',
+  'data' => '',
+  'type' => '1',
+  'status' => '0',
+  'name' => '朋友圈管理',
+  'icon' => 'cogs',
+  'remark' => '',
+  'listorder' => '0',
+  'children' => 
+  array (
+    array (
+      'app' => 'Admin',
+      'model' => 'CircleOfFriends',
+      'action' => 'index',
+      'data' => '',
+      'type' => '1',
+      'status' => '1',
+      'name' => '朋友圈列表',
+      'icon' => '',
+      'remark' => '',
+      'listorder' => '0',
+    ),
+    array (
+      'app' => 'Admin',
+      'model' => 'CircleOfFriends',
+      'action' => 'circle_reply',
+      'data' => '',
+      'type' => '1',
+      'status' => '1',
+      'name' => '朋友圈评论',
+      'icon' => '',
+      'remark' => '',
+      'listorder' => '0',
+    ),
+  ),
+);

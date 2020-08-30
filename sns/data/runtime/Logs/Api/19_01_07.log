@@ -1,0 +1,84 @@
+[ 2019-01-07T14:23:13+08:00 ] 113.116.144.241 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T14:48:54+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T14:49:12+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T14:50:10+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T14:50:35+08:00 ] 113.116.144.241 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T14:51:14+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T14:51:53+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T14:59:47+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:01:02+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:01:42+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:02:00+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:02:57+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:04:49+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:07:21+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:08:21+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:10:55+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:11:59+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:12:01+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:13:32+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:14:18+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:15:57+08:00 ] 180.161.118.229 /Api/Index/singleUser
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'devid' at row 1
+
+[ 2019-01-07T15:20:08+08:00 ] 223.104.213.52 /Api/IndexGene/binding?idcard=230102199505085612&mobile=18246109685&openid=od2g51qCZAQw9zgh2pz9nX-AU2kg&access_token=17_2FvfXsArDgRUaAdV4foesjk6cH36KB0x5jFRbzl-q7hOgPeLrDMvphcaUoVAMR0j9UvgH5SBLEi4xP-QuUHAp1SuGo86cap5Xb6RXkh10Cg
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x87\xA8\xF0\x9F...' for column 'name' at row 1
+
+[ 2019-01-07T15:20:10+08:00 ] 223.104.213.52 /Api/IndexGene/binding?idcard=230102199505085612&mobile=18246109685&openid=od2g51qCZAQw9zgh2pz9nX-AU2kg&access_token=17_2FvfXsArDgRUaAdV4foesjk6cH36KB0x5jFRbzl-q7hOgPeLrDMvphcaUoVAMR0j9UvgH5SBLEi4xP-QuUHAp1SuGo86cap5Xb6RXkh10Cg
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x87\xA8\xF0\x9F...' for column 'name' at row 1
+
+[ 2019-01-07T15:20:14+08:00 ] 223.104.213.52 /Api/IndexGene/binding?idcard=230102199505085612&mobile=18246109685&openid=od2g51qCZAQw9zgh2pz9nX-AU2kg&access_token=17_2FvfXsArDgRUaAdV4foesjk6cH36KB0x5jFRbzl-q7hOgPeLrDMvphcaUoVAMR0j9UvgH5SBLEi4xP-QuUHAp1SuGo86cap5Xb6RXkh10Cg
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x87\xA8\xF0\x9F...' for column 'name' at row 1
+
+[ 2019-01-07T15:20:22+08:00 ] 223.104.213.52 /Api/IndexGene/binding?idcard=230102199505085612&mobile=18246109685&openid=od2g51qCZAQw9zgh2pz9nX-AU2kg&access_token=17_2FvfXsArDgRUaAdV4foesjk6cH36KB0x5jFRbzl-q7hOgPeLrDMvphcaUoVAMR0j9UvgH5SBLEi4xP-QuUHAp1SuGo86cap5Xb6RXkh10Cg
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x87\xA8\xF0\x9F...' for column 'name' at row 1
+
+[ 2019-01-07T15:20:43+08:00 ] 223.104.213.52 /Api/IndexGene/binding?idcard=230102199505085612&mobile=18246109685&openid=od2g51qCZAQw9zgh2pz9nX-AU2kg&access_token=17_2v_aSyVc6dxnOONgP64mWCsQEeYtbJX5EqdOPRTAlOVxNCsd1saNcj94INLurJzRJ9e11RFQ9Zu1HMJ9xOGfhxLQD3jWXlgPBofCUoiRm6Q
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x87\xA8\xF0\x9F...' for column 'name' at row 1
+
+[ 2019-01-07T15:20:44+08:00 ] 223.104.213.52 /Api/IndexGene/binding?idcard=230102199505085612&mobile=18246109685&openid=od2g51qCZAQw9zgh2pz9nX-AU2kg&access_token=17_2v_aSyVc6dxnOONgP64mWCsQEeYtbJX5EqdOPRTAlOVxNCsd1saNcj94INLurJzRJ9e11RFQ9Zu1HMJ9xOGfhxLQD3jWXlgPBofCUoiRm6Q
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x87\xA8\xF0\x9F...' for column 'name' at row 1
+
+[ 2019-01-07T15:20:50+08:00 ] 223.104.213.52 /Api/IndexGene/binding?idcard=230102199505085612&mobile=18246109685&openid=od2g51qCZAQw9zgh2pz9nX-AU2kg&access_token=17_2v_aSyVc6dxnOONgP64mWCsQEeYtbJX5EqdOPRTAlOVxNCsd1saNcj94INLurJzRJ9e11RFQ9Zu1HMJ9xOGfhxLQD3jWXlgPBofCUoiRm6Q
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x87\xA8\xF0\x9F...' for column 'name' at row 1
+

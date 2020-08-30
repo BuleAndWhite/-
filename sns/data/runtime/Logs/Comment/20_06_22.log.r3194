@@ -1,0 +1,64 @@
+[ 2020-06-22T13:36:02+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T13:36:13+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=3&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:40:11+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:40:34+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:40:50+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:47:35+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:47:57+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:48:31+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:49:09+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:49:34+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:50:03+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:55:26+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=3&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:55:31+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:56:11+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T22:57:34+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u1.name' in 'field list'
+
+[ 2020-06-22T22:58:05+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T23:04:05+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T23:05:42+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T23:09:01+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T23:18:19+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-22T23:19:03+08:00 ] 127.0.0.1 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+

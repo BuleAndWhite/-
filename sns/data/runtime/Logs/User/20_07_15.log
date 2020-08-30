@@ -1,0 +1,15 @@
+[ 2020-07-15T12:16:31+08:00 ] 114.88.206.17 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_password' doesn't exist
+
+[ 2020-07-15T12:16:53+08:00 ] 114.88.206.17 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_password' doesn't exist
+
+[ 2020-07-15T12:16:53+08:00 ] 114.88.206.17 /index.php?g=User&m=Oauthadmin&a=index&menuid=137
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_withdraw' doesn't exist
+
+[ 2020-07-15T12:16:53+08:00 ] 114.88.206.17 /index.php?g=User&m=Oauthadmins&a=index&menuid=215
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_sign' doesn't exist
+
+[ 2020-07-15T12:16:58+08:00 ] 114.88.206.17 /index.php?g=User&m=Oauthadmin&a=index&menuid=137
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_withdraw' doesn't exist
+

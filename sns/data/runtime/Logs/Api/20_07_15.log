@@ -1,0 +1,12 @@
+[ 2020-07-15T12:14:54+08:00 ] 114.88.206.17 /amin
+ERR: 无法加载控制器:Amin
+
+[ 2020-07-15T16:18:21+08:00 ] 114.88.206.17 /Api/Recruitment/talentScreening
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND f.isdel = 0 AND g.tablename = 'resume_expect' AND h.isdel = 0 AND i.tablen' at line 1
+
+[ 2020-07-15T16:20:35+08:00 ] 114.88.206.17 /Api/Recruitment/talentScreening
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND f.isdel = 0 AND g.tablename = 'resume_expect' AND h.isdel = 0 AND i.tablen' at line 1
+
+[ 2020-07-15T16:21:54+08:00 ] 114.88.206.17 /Api/Recruitment/talentScreening
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND f.isdel = 0 AND g.tablename = 'resume_expect' AND h.isdel = 0 AND i.tablen' at line 1
+

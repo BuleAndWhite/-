@@ -1,0 +1,12 @@
+[ 2019-06-11T16:53:06+08:00 ] 119.123.62.145 /Api/Index/test
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiliao.az_presentation' doesn't exist
+
+[ 2019-06-11T16:55:26+08:00 ] 119.123.62.145 /Api/Index/test
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiliao.az_presentation' doesn't exist
+
+[ 2019-06-11T17:02:49+08:00 ] 119.123.62.145 /Api/Index/test
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiliao.az_presentation' doesn't exist
+
+[ 2019-06-11T17:29:21+08:00 ] 119.123.60.111 /Api/Index/test
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiliao.az_presentation' doesn't exist
+

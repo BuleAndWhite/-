@@ -1,0 +1,148 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font:14px/1.5 Microsoft YaHei,"\5b8b\4f53";*line-height:1.5;-ms-overflow-style:scrollbar}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+address,cite,dfn,em,var{font-style:normal}
+code,kbd,pre,samp{font-family:courier new,courier,monospace}
+ul,ol{list-style:none}
+a{text-decoration:none;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%}
+table{border-collapse:collapse;border-spacing:0}
+.clearfix:after{display: block;clear:both;height: 0;zoom: 1;content: "";}
+body{color: #fff;background: #000;}
+.img{width: 100%;}
+.a{width: 100%;/* height: 100%; */display: block}
+.show{display: block}
+.hide{display: none}
+.green{color: #0af73e;}
+.layout{width: 100%;height: 100%;position: relative;}
+/*��ͼ1-indexҳ��*/
+.index{width: 100%;height: 100%;background: url("../images/panel1-bg.jpg") no-repeat center 0;background-size:100%;}
+.charging-btn{position: absolute;left:15%;top: 40%;width: 70%;}
+.charging-btn a{width: 100%;height: 100%;display: block;}
+
+.invite-friend{width: 100%;height: 100%;background: url("../images/panel2-bg.jpg") no-repeat center 0;background-size:100%;}
+.invite-friend .tit{padding-top:20%;overflow: hidden;}
+.invite-friend .tit .pic{margin-left: 23%;width: 50%;float: left;}
+.invite-friend .tit span{display: block;width: 14%;float: left;text-align: center;line-height: 40px;font-size: 16px;font-weight: bold}
+.invite-friend .animation{position: relative;width: 240px;margin-left: -120px;margin:5% auto 0;overflow: hidden;}
+.invite-friend .animation .number{position: absolute;width: 100%;top: 32%;font-size: 50px;text-align: center}
+.invite-friend .animation .pic{position: absolute;display: block;width:15px;height: 15px;top: -31px;right:67px;text-align: center}
+.invite-friend .animation ul{position: absolute;width: 240px;height: 240px;}
+.invite-friend .animation ul .img1{position: absolute;width: 16px;left: 103px;top: 13px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img2{position: absolute;width: 16px;left: 122px;top: 13px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img3{position: absolute;width: 21px;left: 136px;top: 14px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img4{position: absolute;width: 25px;left: 150px;top: 19px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img5{position: absolute;width: 28px;left: 163px;top: 28px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img6{position: absolute;width: 30px;left: 175px;top: 39px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img7{position: absolute;width: 31px;left: 185px;top: 54px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img8{position: absolute;width: 32px;left: 193px;top: 70px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img9{position: absolute;width: 30px;left: 201px;top: 106px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img10{position: absolute;width: 31px;left: 200px;top: 125px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img36{position: absolute;width: 32px;left: 198px;top: 87px;transition:all .5s;opacity: 1}
+.invite-friend .animation ul .img11{position: absolute;width: 32px;left: 197px;top: 140px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img12{position: absolute;width: 32px;left: 191px;top: 153px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img13{position: absolute;width: 32px;left: 183px;top: 165px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img14{position: absolute;width: 29px;left: 173px;top: 176px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img15{position: absolute;width: 27px;left: 163px;top: 185px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img16{position: absolute;width: 25px;left: 149px;top: 192px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img17{position: absolute;width: 21px;left: 136px;top: 198px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img18{position: absolute;width: 16px;left: 122px;top: 202px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img19{position: absolute;width: 16px;left: 103px;top: 201px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img20{position: absolute;width: 21px;left: 85px;top: 199px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img21{position: absolute;width: 25px;left: 68px;top: 193px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img22{position: absolute;width: 27px;left: 53px;top: 186px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img23{position: absolute;width: 29px;left: 39px;top: 176px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img24{position: absolute;width: 31px;left: 28px;top: 165px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img25{position: absolute;width: 33px;left: 18px;top: 152px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img26{position: absolute;width: 32px;left: 12px;top: 139px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img27{position: absolute;width: 31px;left: 10px;top: 125px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img28{position: absolute;width: 30px;left: 10px;top: 106px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img29{position: absolute;width: 31px;left: 12px;top: 87px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img30{position: absolute;width: 32px;left: 17px;top: 70px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img31{position: absolute;width: 30px;left: 26px;top: 54px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img32{position: absolute;width: 30px;left: 36px;top: 39px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img33{position: absolute;width: 28px;left: 50px;top: 27px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img34{position: absolute;width: 25px;left: 66px;top: 18px;transition:all .5s;opacity: 0}
+.invite-friend .animation ul .img35{position: absolute;width: 23px;left: 84px;top: 12px;transition:all .5s;opacity: 0}
+
+.invite-friend .animation ul .img11.active{opacity: 1}
+.invite-friend .animation ul .img12.active{opacity: 1}
+.invite-friend .animation ul .img13.active{opacity:1;}
+.invite-friend .animation ul .img14.active{opacity:1;}
+.invite-friend .animation ul .img15.active{opacity:1;}
+.invite-friend .animation ul .img16.active{opacity:1;}
+.invite-friend .animation ul .img17.active{opacity:1;}
+.invite-friend .animation ul .img18.active{opacity:1;}
+.invite-friend .animation ul .img19.active{opacity:1;}
+.invite-friend .animation ul .img20.active{opacity:1;}
+.invite-friend .animation ul .img21.active{opacity:1;}
+.invite-friend .animation ul .img22.active{opacity:1;}
+.invite-friend .animation ul .img23.active{opacity:1;}
+.invite-friend .animation ul .img24.active{opacity:1;}
+.invite-friend .animation ul .img25.active{opacity:1;}
+.invite-friend .animation ul .img26.active{opacity:1;}
+.invite-friend .animation ul .img27.active{opacity:1;}
+.invite-friend .animation ul .img28.active{opacity:1;}
+.invite-friend .animation ul .img29.active{opacity:1;}
+.invite-friend .animation ul .img30.active{opacity:1;}
+.invite-friend .animation ul .img31.active{opacity:1;}
+.invite-friend .animation ul .img32.active{opacity:1;}
+.invite-friend .animation ul .img33.active{opacity:1;}
+.invite-friend .animation ul .img34.active{opacity:1;}
+.invite-friend .animation ul .img35.active{opacity:1;}
+
+
+
+.invite-friend .txt{padding: 20px 0;width: 100%;text-align: center;font-size: 14px;font-weight: bold}
+.invite-friend .txt p{padding: 5px;}
+.invite-friend .invite-btn{margin: 0 auto;width: 70%;}
+
+
+
+.alert{position: fixed;left:0;top: 0;width: 100%;height: 100%;background: rgba(0,0,0,.8)}
+.alert-invite{display: none;}
+.alert-invite .alert-main{position: absolute;right: 5%;top:0;width: 65%;}
+.alert-cj{display: none;}
+.alert-cj .alert-main{position: absolute;width:80%;left: 10%;top: 30%;}
+.alert-cj .alert-main .explian{position: absolute;top: 30%;width: 100%;text-align: center;color:#4b4b4b;font-size: 14px;}
+.alert-cj .alert-main .mobile{position: absolute;top: 45%;left: 10%;width: 80%;}
+.alert-cj .alert-main .mobile input{text-align: center;color:#b4b4b4;font-size: 14px;border: 1px solid #b4b4b4;border-radius: 5px;overflow: hidden;width: 100%;padding: 8px 0;}
+.alert-cj .alert-main .submit{padding: 10px 0;width:80%;position: absolute;bottom: 10%;left: 10%;background: #0072bc;margin: 0 auto;text-align: center;border-radius: 5px;overflow: hidden}
+.alert-cj .alert-main .submit a{color: #fff;}
+
+
+
+.alertgzh{display: none}
+.alertgzh .alert-main{position: absolute;width:80%;left: 10%;top: 30%;}
+.alertgzh .explian{position: absolute;top: 25%;width: 100%;text-align: center;color:#4b4b4b;font-size: 14px;margin-top: 0;height: 25px;line-height: 25px;}
+.alertgzh .explian .pic{height: 25px;display: inline-block;}
+.alertgzh .explian .img{width: 25px;float: left;margin-right: 10px;}
+.alertgzh .explian span{color: #0072bc}
+.alertgzh .text{position: absolute;top: 40%;width: 100%;color: #333;text-align: center}
+.alertgzh .alertgzh-btn{position: absolute;bottom: 10%;left: 5%;width: 90%;padding: 10px 0;background: #0085dc;font-size: 8px;overflow: hidden;border-radius:8px;text-align: center;}
+.alertgzh .alertgzh-btn a{color: #fff;}
+.alertgzh .alertgzh-btn img{width: 25px;}
+
+/*�����б�*/
+.friend-list{margin:5% auto 0;width:90%;display: block;margin-top:0px;}
+.friend-list li{overflow: hidden;padding: 8px 10px;height: 50px;margin-bottom: 10px;background:#1b1b1b;}
+.friend-list li .userimg{width: 50px;height: 50px;float: left;background: #e5e5e5;margin-right: 10px;border-radius: 50%;overflow: hidden}
+.friend-list li .userimg img{max-width: 100%;}
+.friend-list li .username{height: 50px;float: left;line-height:50px;color: #fff;}
+.friend-list li .invite2-btn{float: right;display: block;margin-top: 10px;padding:0 15px;height: 30px;line-height: 30px;color:#8dc63f }
+.friend-list li .invite2-btn .pic{display: block;float: left;width: 20px;}
+.friend-list li .invite2-btn.active{color: #b4b4b4}
+.friend-list h5{text-align: center;color:#00bff3;width: 100%;padding: 10px 0}
+
+
+/*Ϊ�����*/
+.chongdian{width: 100%;height: 100%;background: url("../images/panel2-bg.jpg") no-repeat center 0;background-size:100%;overflow-y: hidden}
+.chongdian .animation{position: relative;width: 70%;margin:35% auto 0 }
+.chongdian .animation .txt{position: absolute;top: 38%;text-align: center;width: 100%;}
+.chongdian .animation .txt .username{color: #8dc63f}
+.chongdian .animation .txt .num{color: #f26522}
+
+.ta{width: 80%;margin: 3% auto 3%}
+.me{width: 80%;margin: 0 auto}
+

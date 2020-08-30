@@ -1,0 +1,44 @@
+<div class=" ui-portlet" id="wechat-msg-mine-list">
+		<div>
+			当前公众号：{$weixin_options.app_name}
+		</div>
+		<div style="text-align: center; margin: 10px auto;">
+		</div>
+		<div class="row">
+		<foreach name="list" item="vo">
+			<div class="col-md-4" data-mid="{$vo['media_id']}">
+				<div style="padding:5px;margin-bottom:5px;border:1px solid #DDD;">
+					<p>
+						&nbsp;&nbsp;&nbsp;&nbsp;{$vo.update_time|date='Y-m-d H:i',###}
+					</p>
+					<div class="appmsg article-msg clearfix" id="article-msg-0" data-id="0">
+						<div class="appmsg_content  clearfix">
+							<p class="title">
+								<a class="wechat-edit hidden" data-mid="{:$vo['content']['news_item'][0]['thumb_media_id']}"
+								title="编辑" data-idx="0">
+									<i class="fa fa-edit">
+									</i>
+								</a>
+								<a href="{:$vo['content']['news_item'][0]['url']}" target="_blank">
+									{:$vo['content']['news_item'][0]['title']}
+								</a>
+							</p>
+							<img src="__APP__/Weixin/weixin_thumb?mid={$vo['content']['news_item'][0]['thumb_media_id']}"
+							class="cover" alt="">
+							<p class="appmsg_desc summary">
+								{$vo['content']['news_item'][0]['digest']}…
+							</p>
+						</div>
+						<div class="appmsg_opr clearfix">
+							<a href="javascript:void(0);" class="col-xs-12 choose-media" data-mid="{$vo['media_id']}">
+								<i class="fa fa-check-square-o">
+								</i>
+								选择
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+</foreach>
+	</div>
+</div>

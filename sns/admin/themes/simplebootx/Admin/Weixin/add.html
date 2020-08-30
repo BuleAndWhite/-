@@ -1,0 +1,103 @@
+<admintpl file="header" />
+<style>
+.wrap input{width:400px}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('WeixinPublic/index')}">公众号管理</a></li>
+			<li class="active"><a href="{:U('WeixinPublic/add')}">添加公众号</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('WeixinPublic/index_post')}">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">{:L('APP_NAME')}</label>
+					<div class="controls">
+						<input type="text" name="options[app_name]" value="{$options.app_name}" />
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('APP_USER')}</label>
+					<div class="controls">
+						<input type="text" name="options[app_user]" value="{$options.app_user}" />
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('APP_WXID')}</label>
+					<div class="controls">
+						<input type="text" name="options[app_wxid]" value="{$options.app_wxid}" />
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('APP_ID')}</label>
+					<div class="controls">
+						<input type="text" name="options[app_id]" value="{$options.app_id}" placeholder=""/>
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('APP_SECRET')}</label>
+					<div class="controls">
+						<input type="text" name="options[app_secret]" value="{$options.app_secret}" />
+						<span class="form-required">*</span>
+					</div>
+				</div>
+				<notempty name="options">
+				<div class="control-group">
+					<label class="control-label">{:L('APP_URL')}</label>
+					<div class="controls">
+						<span style="line-height: 28px;">http://{:$_SERVER['HTTP_HOST']}/index.php/Portal/Weixin/id/{$options.id}</span>
+					</div>
+				</div>
+				</notempty>
+				<div class="control-group">
+					<label class="control-label">{:L('APP_TOKEN')}</label>
+					<div class="controls">
+						<input type="text" class="app_token" name="options[app_token]" value="{$options.app_token}" />
+						<button class="btn btn-primary btn-small" type="button" onclick="$('.app_token').val(randomString(32));">随机生成</button>
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('APP_KEY')}</label>
+					<div class="controls">
+						<input type="text" class="app_key" name="options[app_key]" value="{$options.app_key}" />
+						<button class="btn btn-primary btn-small" type="button" onclick="$('.app_key').val(randomString(43));">随机生成</button>
+						
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">公众号类型</label>
+					<div class="controls">
+						<select name="options[type]" class="msg_type">
+							<option value="0">订阅号</option>
+							<option value="1" {:$options['type'] == 1 ? 'selected' : ''}>服务号</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-actions">
+				<input type="hidden" name="options[id]" value="{$options.id}" />
+					<button type="submit" class="btn btn-primary js-ajax-submit">{:L('SAVE')}</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script>
+	$('.wrap input[type=radio]').css('width','13px');
+	function randomString(len) {
+		len = len || 8;
+		var $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';
+		var maxPos = $chars.length;
+		var pwd = '';
+		for (i = 0; i < len; i++) {
+			pwd += $chars.charAt(Math.floor(Math.random() * maxPos));
+		}
+		return pwd;
+	}
+	</script>
+</body>
+</html>

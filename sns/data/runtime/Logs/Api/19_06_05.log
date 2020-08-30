@@ -1,0 +1,9 @@
+[ 2019-06-05T17:47:33+08:00 ] 124.64.17.213 /Api/IndexGene/binding?idcard=110108199906166027&mobile=18519363150&openid=od2g51iG1aWLI_Xo2goHZhEbOsy8&access_token=22_1tDPjAn4xyzyyAFHUS5YPeohHncBwW1grhLZxq6jSCiAi0jYahxkJaXot46T-tPOOo2_nE6D-taiTQkcnEVjrfLz9ZXvDaWSz211SL1nlgk
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x8F' for column 'name' at row 1
+
+[ 2019-06-05T17:47:39+08:00 ] 124.64.17.213 /Api/IndexGene/binding?idcard=110108199906166027&mobile=18519363150&openid=od2g51iG1aWLI_Xo2goHZhEbOsy8&access_token=22_1tDPjAn4xyzyyAFHUS5YPeohHncBwW1grhLZxq6jSCiAi0jYahxkJaXot46T-tPOOo2_nE6D-taiTQkcnEVjrfLz9ZXvDaWSz211SL1nlgk
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x8F' for column 'name' at row 1
+
+[ 2019-06-05T17:47:44+08:00 ] 124.64.17.213 /Api/IndexGene/binding?idcard=110108199906166027&mobile=18519363150&openid=od2g51iG1aWLI_Xo2goHZhEbOsy8&access_token=22_1tDPjAn4xyzyyAFHUS5YPeohHncBwW1grhLZxq6jSCiAi0jYahxkJaXot46T-tPOOo2_nE6D-taiTQkcnEVjrfLz9ZXvDaWSz211SL1nlgk
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x8F' for column 'name' at row 1
+

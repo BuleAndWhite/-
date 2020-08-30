@@ -1,0 +1,334 @@
+<admintpl file="header" />
+<style>
+.appmsg_content p.title{overflow:hidden;height: 25px;line-height: 25px;}
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.submsg-title {
+    padding: 5px 14px;
+}
+.submsg-title img {
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+.weixin_modal {
+    display: block;
+    left: 0px;
+    width: 100%; 
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: 10000;
+}
+.weixin_modal,.modal-backdrop{display:none}
+.modal-content {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: 0;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ccc;
+}
+.modal-backdrop.in{
+	opacity: 0.3;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857143px;
+    background:#fff;
+}
+.modal-header h3 {
+    color: #323336;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.modal-dialog {
+	width:900px;
+    margin: 30px auto;
+}
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    font-size: 20px;
+    opacity: 1;
+    color: red;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: none;
+    opacity: 0.2;
+    width:18px;
+    filter: alpha(opacity=20);
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.col-md-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.appmsg {
+    border-bottom: 1px solid #e7e7eb;
+    margin-top: 35px;
+}
+.appmsg_content {
+    padding: 0 14px;
+    position: relative;
+}
+.appmsg_content .cover {
+	width:100%;
+    height: 120px;
+    overflow: hidden;
+}
+.appmsg_desc {
+    max-height: 80px;
+    overflow: hidden;
+    padding: 5px 0 10px;
+    word-wrap: break-word;
+/*     word-break: break-all; */
+}
+.appmsg_opr a {
+    display: block;
+    padding: 8px 0;
+}
+.appmsg_opr {
+    background-color: #f4f4f4;
+    border-top: 1px solid #e7e7eb;
+    text-align: center;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+</style>
+<script src="__PUBLIC__/datetimepicker/static/bootstrap-datetimepicker.min.js"></script>
+<script src="__PUBLIC__/datetimepicker/static/bootstrap-datetimepicker.zh-CN.js"></script>
+<link href="__PUBLIC__/datetimepicker/static/datetimepicker_blue.css" rel="stylesheet"/>
+<link href="__PUBLIC__/datetimepicker/static/datetimepicker.css"/>
+<link href="__PUBLIC__/datetimepicker/static/dropdown.css"/>
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('Order/index')}">订单列表</a></li>
+			<li><a href="{:U('Order/export')}" id="export_data">导出数据</a></li>
+		</ul>
+		<form class="well form-search" id="mainform" action="{:U('Order/index')}" method="post">
+			订单状态：
+			<select id="order_select" name="status">
+				<option value="" selected>全部订单</option>
+				<volist name=":C('ORDER_STATUS')" id="list">
+				<option value="{$key}" <php>echo $post_data['status'] === $key ? 'selected' : '';</php>>{$list}</option>
+				</volist>
+			</select>
+			 &nbsp; &nbsp;
+			 时间：
+			<input type="text" class="start_time time" name="start_time" value="<php>echo $post_data['start_time'];</php>" style="width: 140px;" autocomplete="off" placeholder="开始时间" />-
+			<input type="text" class="end_time time" name="end_time" value="<php>echo $post_data['end_time'];</php>" style="width: 140px;" autocomplete="off" placeholder="结束时间" /> &nbsp; &nbsp;
+			订单号： 
+			<input type="text" name="order_id" style="width: 200px;" value="{$post_data.order_id}" placeholder="请输入订单号">
+			<input type="submit" class="btn btn-primary" id="search_submit" value="搜索">
+			<input type="hidden" value="" name="export" id="export_true"/>
+			<script type="text/javascript">
+				$('.time').datetimepicker({
+			        format: 'yyyy-mm-dd hh:ii',
+			        language:"zh-CN",
+			        minView:0,
+			        autoclose:true,
+			    });
+				/*
+				$('.end_time').datetimepicker({
+			        format: 'yyyy-mm-dd hh:ii',
+			        language:"zh-CN",
+			        minView:1,
+			        autoclose:true,
+			        setStartDate:'2012-01-01'
+			    });
+				*/
+				//$('#datetimepicker').datetimepicker('setStartDate', '2012-01-01');
+			</script>
+		</form>
+		<form class="js-ajax-form" method="post">
+			<!-- <div class="table-actions">
+				<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('Order/export')}" data-subcheck="true" data-msg="{:L('DELETE_CONFIRM_MESSAGE')}">发货</button>
+				<button class="btn btn-primary btn-small js-ajax-submit" type="submit">退款</button>
+			</div> -->
+			<table class="table table-hover table-bordered table-list">
+				<thead>
+					<tr>
+<!-- 						<th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th> -->
+						<th width="50">ID</th>
+						<th width="120">订单编号</th>
+						<th width="100">总金额</th>
+						<th width="100">收货人</th>
+						<th width="100">手机号码</th>
+						<th width="120">下单时间</th>
+						<th width="100">状态</th>
+						<th width="200">操作</th>
+					</tr>
+				</thead>
+				<foreach name="order_list" item="order">
+				<tr>
+<!-- 					<td><input type="checkbox" class="js-check" data-yid="js-check-y" data-xid="js-check-x" name="ids[]" value="{$vo.link_id}"></td> -->
+					<td>
+						{$order.id}
+					</td>
+					<td>
+						{$order.order_id}
+					</td>
+					<td>
+						{$order.total_money}
+					</td>
+					<td>
+						{$order.receiver}
+					</td>
+					<td>
+						{$order.tel}
+					</td>
+					<td>
+						{$order.create_time}
+					</td>
+					<td>
+						{$order.status|get_order_status}
+					</td>
+					<td>
+						<a href="{:U('Order/detail',array('order_id'=>$order['order_id']))}" data-oid="{$order.order_id}" class="look_detail">查看</a>
+						 | <a href="{:U('WeixinPublic/delete',array('id'=>$vo['id'],'type'=>1))}" class="js-ajax-delete">{:L('DELETE')}</a>
+					</td>
+				</tr>
+				</foreach>
+				<tfoot>
+					<tr>
+<!-- 						<th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th> -->
+						<th width="50">ID</th>
+						<th width="120">订单编号</th>
+						<th width="100">总金额</th>
+						<th width="100">收货人</th>
+						<th width="100">手机号码</th>
+						<th width="120">下单时间</th>
+						<th width="100">状态</th>
+						<th width="200">操作</th>
+					</tr>
+				</tfoot>
+			</table>
+			<!-- <div class="table-actions">
+				<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('Order/export')}" data-subcheck="true" data-msg="{:L('DELETE_CONFIRM_MESSAGE')}">发货</button>
+				<button class="btn btn-primary btn-small js-ajax-submit" type="submit">退款</button>
+			</div> -->
+		 	<div class="pagination">{$page}</div>
+		</form>
+	</div>
+	<div class="weixin_modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close btn" data-dismiss="modal" aria-hidden="true">
+					×
+				</button>
+				<h3 id="myModalLabel">
+					订单编号：
+				</h3>
+			</div>
+			<div class="modal-body" style="max-height: 550px; overflow-y: auto;">
+			
+				
+					</div>
+					<div style="text-align:center;margin:10px auto;">
+					</div>
+				</div>
+			</div>
+</div>
+	<div class="modal-backdrop  in"></div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script>
+		$('button.close').click(function(){
+			$('.modal-backdrop,.weixin_modal').hide();
+		});
+		var html = '<img src="__TMPL__/Public/assets/images/wheel_throbber.gif"> 正在加载...';
+		$('a.look_detail').click(function(){
+			var orderId = $(this).attr('data-oid');
+			$('#myModalLabel').html('订单编号：'+ orderId);
+			$('.modal-body').html(html);
+			$.get($(this).attr('href'),function(data){
+				$('.modal-body').html(data);
+			});
+			$('.modal-backdrop,.weixin_modal').show();
+			return false;
+		});
+		$('#export_data').click(function(){
+			$('#export_true').val('1');
+			//alert($('#mainform').serialize());
+			var param = $('#mainform').serialize();
+			location.href = "{:U('Order/export')}&" + param;
+			$('#export_true').val('');
+			return false;
+		});
+		setCookie('refersh_time', 0);
+		function refersh_window() {
+			var refersh_time = getCookie('refersh_time');
+			if (refersh_time == 1) {
+				window.location.reload();
+			}
+		}
+		setInterval(function() {
+			refersh_window()
+		}, 3000);
+		$(function() {
+			$("#selected-cid").change(function() {
+				$("#cid-form").submit();
+			});
+		});
+	</script>
+</body>
+</html>

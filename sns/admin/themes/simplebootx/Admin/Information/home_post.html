@@ -1,0 +1,129 @@
+<admintpl file="header" />
+
+</head>
+<body>
+<div class="wrap js-check-wrap">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="javascript:;">推荐首页帖子</a></li>
+		<li><a href="{:U('Information/index')}">帖子管理</a></li>
+		<li ><a href="{:U('Information/post_reply')}">评论管理</a></li>
+		<li ><a href="{:U('Information/trash')}">帖子回收站</a></li>
+		<!--<li ><a href="{:U('Information/circle_add')}">添加帖子</a></li>-->
+		<!--<li><a href="{:U('AdminPost/add',array('term'=>empty($term['term_id'])?'':$term['term_id']))}" target="_self">添加帖子</a></li>-->
+	</ul>
+
+	<form class="js-ajax-form" action="" method="post">
+		<div class="table-actions">
+			<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('Information/unRecommend',array('unrecommend'=>1))}" data-subcheck="true" data-msg="你确定取消首页推荐吗？">取消首页推荐</button>
+			<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('Information/delete')}" data-subcheck="true" data-msg="你确定删除吗？">删除帖子</button>
+		</div>
+		<table class="table table-hover table-bordered table-list">
+			<thead>
+			<tr>
+			<tr>
+				<th width="15"><label><input type="checkbox" class="js-check-all" data-direction="x"
+											 data-checklist="js-check-x"></label></th>
+				<th width="50">{:L('SORT')}</th>
+				<th width="50">Id</th>
+				<th width="50">标题</th>
+				<th width="50">专题</th>
+				<th width="80">发布人</th>
+				<th width="50">点赞数量</th>
+				<th width="50">访问数量</th>
+				<th width="50">评论数量</th>
+				<th width="70">创建时间</th>
+				<th width="70">操作</th>
+			</tr>
+			</thead>
+			<php>
+				$top_status=array("1"=>"已置顶","0"=>"未置顶");
+				$recommend_status=array("1"=>"推荐热门","0"=>"取消热门");
+			</php>
+			<foreach name="forumPostIshot" item="vo">
+				<tr>
+					<td><input type="checkbox" class="js-check" data-yid="js-check-y" data-xid="js-check-x" name="ids[]"
+							   value="{$vo.id}" title="ID:{$vo.id}"></td>
+					<td><input name="listorders[{$vo.id}]" class="input input-order" type="text" size="5"
+							   value="{$vo.listorder}" title="ID:{$vo.id}"></td>
+					<td>{$vo.id}</td>
+					<td> {$vo.title}</td>
+					<td>{$vo.name}</td>
+					<td>{$vo.user_nicename}</td>
+					<td>{$vo.praise_num}</td>
+					<td>{$vo.click_num}</td>
+					<td><a href="javascript:open_iframe_dialog('{:U('comment/commentadmin/index',array('post_id'=>$vo['id'],'tablename'=>'forum_post'))}','评论列表')">{$vo.reply_num}</a></td>
+					<td>{$vo.create_time}</td>
+					<td>{$top_status[$vo['istop']]}<br>{$recommend_status[$vo['ishot']]}
+					</td>
+				</tr>
+			</foreach>
+			<tfoot>
+			<tr>
+				<th width="15"><label><input type="checkbox" class="js-check-all" data-direction="x"
+											 data-checklist="js-check-x"></label></th>
+				<th width="50">{:L('SORT')}</th>
+				<th width="50">Id</th>
+				<th width="50">标题</th>
+				<th width="50">专题</th>
+				<th width="80">发布人</th>
+				<th width="50">点赞数量</th>
+				<th width="50">访问数量</th>
+				<th width="50">评论数量</th>
+				<th width="70">创建时间</th>
+				<th width="70">操作</th>
+			</tr>
+			</tfoot>
+		</table>
+		<div class="table-actions">
+			<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('Information/trashInfo',array('unRecommend'=>1))}" data-subcheck="true" data-msg="你确定要取消首页推荐吗？">取消首页推荐</button>
+			<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('Information/delete')}" data-subcheck="true" data-msg="你确定删除吗？">删除帖子</button>
+		</div>
+		<div class="pagination">{$page}</div>
+	</form>
+</div>
+<script src="__PUBLIC__/js/common.js"></script>
+<script>
+    function refersh_window() {
+        var refersh_time = getCookie('refersh_time');
+        if (refersh_time == 1) {
+            window.location = "{:U('AdminPost/index',$formget)}";
+        }
+    }
+    setInterval(function() {
+        refersh_window();
+    }, 2000);
+    $(function() {
+        setCookie("refersh_time", 0);
+        Wind.use('ajaxForm', 'artDialog', 'iframeTools', function() {
+            //批量移动
+            $('.js-articles-move').click(function(e) {
+                var str = 0;
+                var id = tag = '';
+                $("input[name='ids[]']").each(function() {
+                    if ($(this).attr('checked')) {
+                        str = 1;
+                        id += tag + $(this).val();
+                        tag = ',';
+                    }
+                });
+                if (str == 0) {
+                    art.dialog.through({
+                        id : 'error',
+                        icon : 'error',
+                        content : '您没有勾选信息，无法进行操作！',
+                        cancelVal : '关闭',
+                        cancel : true
+                    });
+                    return false;
+                }
+                var $this = $(this);
+                art.dialog.open("__ROOT__/index.php?g=portal&m=AdminPost&a=move&ids="+ id, {
+                    title : "批量移动",
+                    width : "80%"
+                });
+            });
+        });
+    });
+</script>
+</body>
+</html>

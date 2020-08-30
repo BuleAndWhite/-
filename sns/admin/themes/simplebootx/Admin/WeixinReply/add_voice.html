@@ -1,0 +1,313 @@
+<admintpl file="header" />
+<style>
+.wrap input{width:400px}
+.wrap select{width:415px}
+.appmsg_content p.title{overflow:hidden;height: 25px;line-height: 25px;}
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.submsg-title {
+    padding: 5px 14px;
+}
+.submsg-title img {
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+.weixin_modal {
+    display: block;
+    left: 0px;
+    width: 100%; 
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: 10000;
+}
+.weixin_modal,.modal-backdrop{display:none}
+.modal-content {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: 0;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ccc;
+}
+.modal-backdrop.in{
+	opacity: 0.3;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857143px;
+    background:#fff;
+}
+.modal-header h3 {
+    color: #323336;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.modal-dialog {
+	width:900px;
+    margin: 30px auto;
+}
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: none;
+    opacity: 0.2;
+    width:18px;
+    filter: alpha(opacity=20);
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.col-md-4 {
+    width: 29%;
+    float:left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.appmsg {
+    border: 1px solid #e7e7eb;
+    margin-bottom: 10px;
+}
+.appmsg_content {
+    padding: 0 14px;
+    position: relative;
+}
+.appmsg_content .cover {
+	width:100%;
+    height: 120px;
+    overflow: hidden;
+}
+.appmsg_desc {
+    max-height: 80px;
+    overflow: hidden;
+    padding: 5px 0 10px;
+    word-wrap: break-word;
+/*     word-break: break-all; */
+}
+.appmsg_opr a {
+    display: block;
+    padding: 8px 0;
+}
+.appmsg_opr {
+    background-color: #f4f4f4;
+    border-top: 1px solid #e7e7eb;
+    text-align: center;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+</style>
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('WeixinReply/index')}">{:L('WX_LIST')}</a></li>
+			<li><a href="{:U('WeixinReply/add_text')}">{:L('WX_TEXT')}</a></li>
+			<li><a href="{:U('WeixinReply/add_news')}">{:L('WX_NEWS')}</a></li>
+			<li><a href="{:U('WeixinReply/add_image')}">{:L('WX_IMAGE')}</a></li>
+			<li class="active"><a href="{:U('WeixinReply/add_voice')}">{:L('WX_VOICE')}</a></li>
+			<li><a href="{:U('WeixinReply/add_music')}">{:L('WX_MUSIC')}</a></li>
+			<li><a href="{:U('WeixinReply/add_video')}">{:L('WX_VIDEO')}</a></li>
+		</ul>
+<!-- 		<span class="help-block" style="color: red;">一级菜单字数不超过4个汉字或8个字母，3个菜单。二级菜单字数不超过8个汉字或16个字母，最多设置5个</span> -->
+		<if condition="$t eq 'b'">
+		<form class="form-horizontal js-ajax-form" action="{:U('Weixin/add_post')}" method="post">
+			<fieldset>
+				<div class="tabbable">
+					<div class="tab-content">
+						<div class="tab-pane active" id="B">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label">{:L('WX_KEYWORDS')}</label>
+									<div class="controls">
+										<input type="text" name="info[menu_name]" value="{$menu_info.menu_name}"><span class="form-required">*</span>
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">{:L('WX_PREV_MENU')}</label>
+									<div class="controls">
+										<select name="info[parent_id]">
+											<option value="" selected>作为一级菜单</option>
+											<foreach name="menu_list" item="vo">
+											<option value="{$vo.id}" <eq name="menu_info.parent_id" value="$vo.id">selected</eq>>{$vo.menu_name}</option>
+											</foreach>
+										</select><span class="form-required">*</span>
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">{:L('WX_OPEN_URL')}</label>
+									<div class="controls">
+										<input type="text" name="info[comment]" placeholder="{:L('COMMENT_TIPS')}" value="{$menu_info.comment}" id="js-site-admin-url-password"><span class="form-required">*</span>
+										
+									</div>
+								</div>
+								
+							</fieldset>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-actions">
+					<input type="hidden" name="info[type]" value="0" />
+					<input type="hidden" name="info[id]" value="{$menu_info.id}" />
+					<button type="submit" class="btn btn-primary  js-ajax-submit">{:L("SAVE")}</button>
+				</div>
+			</fieldset>
+		</form>
+		<else/>
+		<form class="form-horizontal js-ajax-form" action="{:U('Weixin/add_post')}" method="post">
+			<fieldset>
+				<div class="tabbable">
+					<div class="tab-content">
+						<div class="tab-pane active" id="C">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label">{:L('WX_KEYWORDS')}</label>
+									<div class="controls">
+										<input type="text" name="info[menu_name]" value="{$menu_info.menu_name}"><span class="form-required">*</span>
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">{:L('WX_PREV_MENU')}</label>
+									<div class="controls">
+										<select name="info[parent_id]">
+											<option value="" selected>作为一级菜单</option>
+											<foreach name="menu_list" item="vo">
+											<option value="{$vo.id}" <eq name="menu_info.parent_id" value="$vo.id">selected</eq>>{$vo.menu_name}</option>
+											</foreach>
+										</select><span class="form-required">*</span>
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">{:L('WX_SUCAI')}</label>
+									<div class="controls">
+										<input type="text" name="info[comment]" readonly style="cursor: not-allowed;color: #999;" value="{$menu_info.comment}" id="comment"><span class="form-required">*</span>
+										
+										
+										
+										
+									</div>
+									
+								</div>
+								<div class="control-group">
+									<label class="control-label"></label>
+									<div class="controls">
+									<button class="btn btn-primary btn-small" type="button" data-toggle="modal" >选择素材</button> 选择微信素材中心的素材
+									</div>
+								
+							</fieldset>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-actions">
+					<input type="hidden" name="info[type]" value="1" />
+					<input type="hidden" name="info[id]" value="{$menu_info.id}" />
+					<button type="submit" class="btn btn-primary  js-ajax-submit">{:L("SAVE")}</button>
+				</div>
+			</fieldset>
+		</form>
+		</if>
+	</div>
+	
+	
+	
+	<div class="weixin_modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close btn" data-dismiss="modal" aria-hidden="true">
+					×
+				</button>
+				<h3 id="myModalLabel">
+					选择微信素材
+				</h3>
+			</div>
+			<div class="modal-body" style="max-height: 550px; overflow-y: auto;">
+			
+				
+					</div>
+					<div style="text-align:center;margin:10px auto;">
+					</div>
+				</div>
+			</div>
+</div>
+<div class="modal-backdrop  in"></div>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script>
+	$(function(){
+		$('button.close').click(function(){
+			$('.modal-backdrop,.weixin_modal').hide();
+		});
+		var html = '<img src="__TMPL__/Public/assets/images/wheel_throbber.gif"> 正在加载...';
+		$('button.btn-small').click(function(){
+			$('.modal-body').html(html);
+			$.get("{:U('Weixin/select')}",{type:"{:$_GET['type']}"},function(data){
+				$('.modal-body').html(data);
+			});
+			$('.modal-backdrop,.weixin_modal').show();
+		});
+		$('.choose-media').live('click',function(){
+			$('#comment').val($(this).attr('data-mid'));
+			$('.modal-backdrop,.weixin_modal').hide();
+		});
+	})
+	</script>
+</body>
+</html>

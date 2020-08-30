@@ -1,0 +1,225 @@
+<admintpl file="header" />
+<style>
+.emotions_item i {
+    display: inline-block;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    background: transparent url(__TMPL__Public/assets/images/default218877.gif) no-repeat 0 0;
+}
+.emotion_wrp {
+    display: none;
+    width: 421px;
+    margin-top: 10px;
+    /*left: -1px;*/
+    position: absolute;
+}
+.emotions_item {
+    float: left;
+    line-height: 27px;
+    height: 27px;
+    font-size: 0;
+    text-align: center;
+    width: 27px;
+    border-bottom: 1px solid #c0bfc5;
+    border-left: 1px solid #c0bfc5;
+    background-color: #fff;
+    margin-bottom:0px !important;
+}
+.emotions {
+    -moz-user-select: none;
+    overflow: hidden;
+    *zoom: 1;
+    border-top: 1px solid #c0bfc5;
+    border-right: 1px solid #c0bfc5;
+    background-color: #e7e7eb;
+}
+.emotions_preview {
+    position: absolute;
+    top: 0;
+    right: -81px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 0;
+    text-align: center;
+    border: 1px solid #c0bfc5;
+    background-color: #fff;
+}
+.icon_emotion.emotion_switch {
+    background: url("__TMPL__Public/assets/images/emotion.png") 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.icon_emotion.emotion_switch:hover {
+	background:url("__TMPL__Public/assets/images/emotion.png") 0 -30px no-repeat
+}
+.emotion_switch {
+    /*float: left;*/
+    margin-top: 8px;
+    height: 28px;
+    line-height: 999em;
+    overflow: hidden;
+}
+.hook {
+    position: absolute;
+    left: 21px;
+    top: 0;
+}
+.hook .hook_top {
+    top: -16px;
+    border-color: transparent transparent #c0bfc5;
+}
+.hook .hook_dec {
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px;
+}
+.hook .hook_btm {
+    top: -15px;
+    border-color: transparent transparent #f6f6f6;
+}
+</style>
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('WeixinReply/index')}">文本回复</a></li>
+			<li><a href="{:U('WeixinReply/news')}">图文回复</a></li>
+			<li class="active"><a href="{:U('WeixinReply/mult')}">多图文设置</a></li>
+		</ul>
+<!-- 		<span class="help-block" style="color: red;">一级菜单字数不超过4个汉字或8个字母，3个菜单。二级菜单字数不超过8个汉字或16个字母，最多设置5个</span> -->
+		
+		<form class="form-horizontal js-ajax-form" action="{:U('WeixinReply/add_mult')}" method="post">
+			<fieldset>
+				<div class="tabbable">
+					<div class="tab-content">
+						<div class="tab-pane active" id="C">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label">关键词</label>
+									<div class="controls">
+										<input id="reply_keyword" placeholder="输入关键字" type="text" name="info[keyword]" value="{$info.eyword}"><span class="form-required">*</span>
+	
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">关键词类型 </label>
+									<div class="controls">
+										<select name="info[type]">
+										  <option value="0">完全匹配</option>
+										  <option value="1" {:$info['type'] == 1 ? 'selected' : ''}>左边匹配</option>
+										  <option value="2" {:$info['type'] == 2 ? 'selected' : ''}>右边匹配</option>
+										  <option value="3" {:$info['type'] == 3 ? 'selected' : ''}>模糊匹配</option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label">回复内容</label>
+									<div class="controls">
+										<textarea class="content" name="info[content]" rows="5" cols="57" style="margin: 0px; width: 280px; height: 100px;">{$info.content}</textarea>
+									</div>
+									
+								</div>
+								<div class="control-group">
+									<label class="control-label"></label>
+									<div class="controls" style="margin-top: -18px;">
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0);" class="icon_emotion emotion_switch js_switch">表情</a>
+										<admintpl file="WeixinReply/emotion" />
+									</div>
+								</div>
+								<div class="control-group">
+									<label class="control-label">排序</label>
+									<div class="controls">
+										<input id="reply_keyword" type="text" name="info[listorder]" value="0"><span class="form-required">*</span>
+	
+									</div>
+								</div>
+								
+							</fieldset>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-actions">
+					<input type="hidden" name="info[type]" value="1" />
+					<input type="hidden" name="info[id]" value="{$menu_info.id}" />
+					<button type="submit" class="btn btn-primary  js-ajax-submit">{:L("SAVE")}</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script>
+	{:$info['send_type'] == 1 ? '$(".control-group").show();' : ''}
+	$(function(){
+		var flag = true;
+		$('.js_switch').click(function(){
+			if(flag){
+				$('.js_emotionArea').show();
+				flag = false;
+			}else{
+				$('.js_emotionArea').hide();
+				flag = true;
+			}
+		});
+		$('ul.emotions .emotions_item').mouseover(function(){
+			$('span.emotions_preview').html("<img src='"+$(this).find('i').attr('data-gifurl')+"' />");
+		}).mouseout(function(){
+			$('span.emotions_preview').html('');
+		});
+		$('ul.emotions .emotions_item').click(function(){
+			$('textarea.content').insertAtCaret('/'+$(this).find('i').attr('data-title'));//val($('textarea.content').val()+'/'+$(this).find('i').attr('data-title'));
+		});
+		$('#system-event').change(function(){
+			$('#reply_keyword').val($(this).val());
+		});
+		$('#active_false').click(function(){
+			$(this).parents('.control-group').siblings().show();
+		});
+		$('#active_true').click(function(){
+			$(this).parents('.control-group').siblings().hide();
+			$('.control-content').show();
+		});
+	})
+	</script>
+</body>
+</html>
+<script>
+(function($){
+	$.fn.extend({
+	insertAtCaret: function(myValue){
+	var $t=$(this)[0];
+	if (document.selection) {
+	this.focus();
+	sel = document.selection.createRange();
+	sel.text = myValue;
+	this.focus();
+	}
+	else 
+	if ($t.selectionStart || $t.selectionStart == '0') {
+	var startPos = $t.selectionStart;
+	var endPos = $t.selectionEnd;
+	var scrollTop = $t.scrollTop;
+	$t.value = $t.value.substring(0, startPos) + myValue + $t.value.substring(endPos, $t.value.length);
+	this.focus();
+	$t.selectionStart = startPos + myValue.length;
+	$t.selectionEnd = startPos + myValue.length;
+	$t.scrollTop = scrollTop;
+	}
+	else {
+	this.value += myValue;
+	this.focus();
+	}
+	}
+	}) 
+	})(jQuery);
+</script>

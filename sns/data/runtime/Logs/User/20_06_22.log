@@ -1,0 +1,9 @@
+[ 2020-06-22T18:07:53+08:00 ] 114.88.206.17 /index.php?g=User&m=Oauthadmins&a=index&menuid=215
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_device_binding' doesn't exist
+
+[ 2020-06-22T18:07:57+08:00 ] 114.88.206.17 /index.php?g=User&m=Oauthadmins&a=index&menuid=215
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_device_binding' doesn't exist
+
+[ 2020-06-22T18:07:58+08:00 ] 114.88.206.17 /index.php?g=User&m=Oauthadmins&a=index&menuid=215
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_device_binding' doesn't exist
+

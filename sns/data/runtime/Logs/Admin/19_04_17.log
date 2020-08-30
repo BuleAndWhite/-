@@ -1,0 +1,168 @@
+[ 2019-04-17T13:12:31+08:00 ] 180.152.226.37 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0016s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('180.152.226.37','1','1555477951','1') [ RunTime:0.0035s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='180.152.226.37',`last_login_time`='2019-04-17 13:12:31',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0035s ]
+
+[ 2019-04-17T13:12:36+08:00 ] 180.152.226.37 /index.php?g=Admin&m=Withdraw&a=withdrawal&menuid=205
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\WithdrawModel
+
+[ 2019-04-17T13:12:37+08:00 ] 180.152.226.37 /index.php?g=Admin&m=Message&a=index&menuid=192
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2019-04-17T13:12:41+08:00 ] 180.152.226.37 /index.php?g=Admin&m=Positioning&a=index&menuid=209
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\AddressModel
+
+[ 2019-04-17T13:12:43+08:00 ] 180.152.226.37 /index.php?g=Admin&m=Withdraw&a=withdrawal&menuid=205
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\WithdrawModel
+
+[ 2019-04-17T13:12:45+08:00 ] 180.152.226.37 /index.php?g=Admin&m=Feedback&a=index&menuid=207
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2019-04-17T13:13:47+08:00 ] 180.152.226.37 /index.php?g=Admin&m=Feedback&a=select&id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `az_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options_link` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `az_weixin_options_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `az_weixin_options` WHERE `id` IN ('115','123') ORDER BY FIND_IN_SET(id,"115,123")  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+SQL: SHOW COLUMNS FROM `az_post_digg` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+SQL: SHOW COLUMNS FROM `az_forum` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+SQL: SHOW COLUMNS FROM `az_forum_post` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+SQL: SHOW COLUMNS FROM `az_message_content` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+SQL: SHOW COLUMNS FROM `az_message` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_feedback` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `az_feedback` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: url /data/wwwroot/olive/application/Common/Controller/AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status /data/wwwroot/olive/application/Common/Controller/AppframeController.class.php 第 25 行.
+
+[ 2019-04-17T13:14:23+08:00 ] 180.152.226.37 /index.php?g=Admin&m=Feedback&a=select&id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options_link` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `az_weixin_options_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `az_weixin_options` WHERE `id` IN ('115','123') ORDER BY FIND_IN_SET(id,"115,123")  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+SQL: SHOW COLUMNS FROM `az_post_digg` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+SQL: SHOW COLUMNS FROM `az_forum` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+SQL: SHOW COLUMNS FROM `az_forum_post` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+SQL: SHOW COLUMNS FROM `az_message_content` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+SQL: SHOW COLUMNS FROM `az_message` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_feedback` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `az_feedback` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: url /data/wwwroot/olive/application/Common/Controller/AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status /data/wwwroot/olive/application/Common/Controller/AppframeController.class.php 第 25 行.
+
+[ 2019-04-17T13:14:27+08:00 ] 180.152.226.37 /index.php?g=Admin&m=Feedback&a=select&id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options_link` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `az_weixin_options_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `az_weixin_options` WHERE `id` IN ('115','123') ORDER BY FIND_IN_SET(id,"115,123")  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0016s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+SQL: SHOW COLUMNS FROM `az_post_digg` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+SQL: SHOW COLUMNS FROM `az_forum` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+SQL: SHOW COLUMNS FROM `az_forum_post` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+SQL: SHOW COLUMNS FROM `az_message_content` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+SQL: SHOW COLUMNS FROM `az_message` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_feedback` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `az_feedback` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: url /data/wwwroot/olive/application/Common/Controller/AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status /data/wwwroot/olive/application/Common/Controller/AppframeController.class.php 第 25 行.
+
+[ 2019-04-17T13:15:42+08:00 ] 180.152.226.37 /index.php?g=Admin&m=ForHost&a=index&menuid=214
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2019-04-17T13:15:46+08:00 ] 180.152.226.37 /index.php?g=Admin&m=ForHost&a=select&id=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `az_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options_link` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `az_weixin_options_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `az_weixin_options` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `az_weixin_options` WHERE `id` IN ('115','123') ORDER BY FIND_IN_SET(id,"115,123")  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+SQL: SHOW COLUMNS FROM `az_post_digg` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+SQL: SHOW COLUMNS FROM `az_forum` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+SQL: SHOW COLUMNS FROM `az_forum_post` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+SQL: SHOW COLUMNS FROM `az_message_content` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+SQL: SHOW COLUMNS FROM `az_message` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+SQL: SHOW COLUMNS FROM `az_for_host` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `az_for_host` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: url /data/wwwroot/olive/application/Common/Controller/AppframeController.class.php 第 24 行.
+NOTIC: [8] Undefined index: status /data/wwwroot/olive/application/Common/Controller/AppframeController.class.php 第 25 行.
+

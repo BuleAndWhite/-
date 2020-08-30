@@ -1,0 +1,176 @@
+[ 2018-12-07T16:54:08+08:00 ] 116.238.72.41 /index.php?g=Admin&m=User&a=userinfo&menuid=111
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-07T16:54:11+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Positioning&a=index&menuid=209
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\AddressModel
+
+[ 2018-12-07T16:54:11+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Positioning&a=index&menuid=209
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\AddressModel
+
+[ 2018-12-07T16:54:12+08:00 ] 116.238.72.41 /index.php?g=Admin&m=ForHost&a=index&menuid=214
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2018-12-07T16:54:15+08:00 ] 116.238.72.41 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-07T16:54:16+08:00 ] 116.238.72.41 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-07T16:54:20+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Menu&a=index&menuid=100
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-12-07T16:54:25+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Positioning&a=index&menuid=209
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\AddressModel
+
+[ 2018-12-07T16:54:30+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Feedback&a=index&menuid=207
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T16:54:31+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Withdraw&a=withdrawal&menuid=205
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\WithdrawModel
+
+[ 2018-12-07T16:54:33+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Message&a=index&menuid=192
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T16:54:35+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Positioning&a=index&menuid=209
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\AddressModel
+
+[ 2018-12-07T16:54:36+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Feedback&a=index&menuid=207
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T16:54:45+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Message&a=index&menuid=192
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T16:54:49+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Feedback&a=index&menuid=207
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T17:04:04+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Message&a=index&menuid=192
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T17:04:12+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Message&a=index&menuid=192
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T17:04:20+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Message&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T17:04:27+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Message&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T17:04:30+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Positioning&a=index&menuid=209
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\AddressModel
+
+[ 2018-12-07T17:05:16+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Positioning&a=index&menuid=209
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\AddressModel
+
+[ 2018-12-07T17:05:17+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Feedback&a=index&menuid=207
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T17:06:19+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Feedback&a=index&menuid=207
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2018-12-07T17:06:21+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Withdraw&a=withdrawal&menuid=205
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\WithdrawModel
+
+[ 2018-12-07T17:20:02+08:00 ] 116.238.72.41 /index.php?g=Admin&m=ForHost&a=index&menuid=214
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2018-12-07T17:22:32+08:00 ] 116.238.72.41 /index.php?g=Admin&m=Feedback&a=index&menuid=207
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+

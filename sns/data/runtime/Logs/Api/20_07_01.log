@@ -1,0 +1,83 @@
+[ 2020-07-01T00:03:11+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:04:11+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:05:11+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:10:29+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:11:29+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:12:29+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:13:59+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:14:59+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:16:22+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:20:14+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:21:14+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:22:51+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:27:42+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:28:47+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:29:47+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:31:19+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:31:31+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:31:58+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:35:59+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:37:09+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:37:23+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:44:27+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T00:49:38+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-07-01T15:37:48+08:00 ] 114.88.206.17 /Api/JobSearch/positionFilter
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY object_id ) AS a 
+	WHERE
+		a.space_list LIKE "" 
+	) AS a
+	LEFT JO' at line 18
+
+[ 2020-07-01T16:39:40+08:00 ] 114.88.206.17 /Api/JobSearch/positionFilter
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY object_id ) AS a 
+	WHERE
+		a.space_list LIKE "" 
+	) AS a
+	LEFT JO' at line 18
+

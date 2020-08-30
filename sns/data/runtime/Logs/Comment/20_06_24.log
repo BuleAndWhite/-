@@ -1,0 +1,26 @@
+[ 2020-06-24T12:04:27+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=follow&post_id=1&tablename=forum
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.follow_id' in 'where clause'
+
+[ 2020-06-24T13:01:14+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=follow&post_id=1&tablename=forum
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.follow_id' in 'where clause'
+
+[ 2020-06-24T13:05:42+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=follow&post_id=1&tablename=forum
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-24T13:05:49+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=follow&post_id=2&tablename=forum
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-24T13:06:11+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=follow&post_id=2&tablename=forum
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-24T13:06:18+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=follow&post_id=2&tablename=forum
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-24T13:06:25+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=follow&post_id=2&tablename=forum
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-24T13:06:29+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=follow&post_id=1&tablename=forum
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+

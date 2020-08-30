@@ -1,0 +1,79 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('WeixinReply/index')}">文本回复</a></li>
+			<li class="active"><a href="{:U('WeixinReply/news')}">图文回复</a></li>
+			<li><a href="{:U('WeixinReply/mult')}">多图文设置</a></li>
+		</ul>
+		<!-- 
+		<form class="well form-search" method="post" action="{:U('AdminPage/index')}">
+			{:L('POST_DATE')}
+			<input type="text" name="start_time" class="js-date" value="{$formget.start_time}" style="width: 80px;" autocomplete="off">-
+			<input autocomplete="off" type="text" class="js-date" name="end_time" value="{$formget.end_time}" style="width: 80px;"> {:L('KEYWORD')}
+			<input type="text" name="keyword" style="width: 200px;" value="{$formget.keyword}" placeholder="{:L('PLEASE_ENTER_KEYWORD')}">
+			<button class="btn btn-primary">{:L('SEARCH')}</button>
+		</form>
+		 -->
+		<form class="js-ajax-form" method="post">
+			<div class="table-actions">
+				<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('WeixinReply/delete')}" data-subcheck="true" data-msg="{:L('DELETE_CONFIRM_MESSAGE')}">{:L('DELETE')}</button>
+				<a class="btn btn-primary btn-small" href="{:U('WeixinReply/add_news')}">新增</a>
+			</div>
+			<table class="table table-hover table-bordered table-list">
+				<thead>
+					<tr>
+						<th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th>
+						<th width="100">ID</th>
+						<th>关键词</th>
+						<th>关键词类型</th>
+						<th>排序</th>
+						<th width="120">{:L('ACTIONS')}</th>
+					</tr>
+				</thead>
+				<foreach name="list" item="vo">
+				<tr>
+					<td><input type="checkbox" class="js-check" data-yid="js-check-y" data-xid="js-check-x" name="ids[]" value="{$vo.id}"></td>
+					<td>{$vo.id}</td>
+					<td><a href="{:U('WeixinReply/add_news',array('id'=>$vo['id']))}"><span>{$vo.keyword}</span></a></td>
+					<td>{$keyword_type[$vo['type']]}</td>
+					<td>{$vo.listorder}</td>
+					<td>
+						<a href="{:U('WeixinReply/edit',array('id'=>$vo['id']))}">{:L('EDIT')}</a> |
+						<a href="{:U('WeixinReply/delete',array('id'=>$vo['id']))}" class="js-ajax-delete">{:L('DELETE')}</a>
+					</td>
+				</tr>
+				</foreach>
+				<tfoot>
+					<tr>
+						<th width="16"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th>
+						<th width="100">ID</th>
+						<th>关键词</th>
+						<th>关键词类型</th>
+						<th>排序</th>
+						<th width="120">{:L('ACTIONS')}</th>
+					</tr>
+				</tfoot>
+			</table>
+			<div class="table-actions">
+				<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('WeixinReply/delete')}" data-subcheck="true" data-msg="你确定删除吗？">{:L('DELETE')}</button>
+			</div>
+			<div class="pagination">{$Page}</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script>
+		setCookie('refersh_time', 0);
+		function refersh_window() {
+			var refersh_time = getCookie('refersh_time');
+			if (refersh_time == 1) {
+				window.location.reload();
+			}
+		}
+		setInterval(function() {
+			refersh_window()
+		}, 2000);
+	</script>
+</body>
+</html>

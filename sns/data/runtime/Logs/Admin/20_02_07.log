@@ -1,0 +1,144 @@
+[ 2020-02-07T12:06:08+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:06:22+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:06:34+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:06:50+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:07:14+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.3064s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.2361s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0753s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.1757s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.1281s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('127.0.0.1','1','1581048433','1') [ RunTime:0.1866s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='127.0.0.1',`last_login_time`='2020-02-07 12:07:14',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.1174s ]
+
+[ 2020-02-07T12:08:05+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:08:30+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:08:44+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:09:09+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=index&menuid=214
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+
+[ 2020-02-07T12:09:38+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:09:50+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:10:13+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:10:19+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:10:47+08:00 ] 127.0.0.1 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.1558s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.2839s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.1233s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.1797s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.3073s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('127.0.0.1','1','1581048646','1') [ RunTime:0.3067s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='127.0.0.1',`last_login_time`='2020-02-07 12:10:47',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0787s ]
+
+[ 2020-02-07T12:12:11+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:12:38+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+
+[ 2020-02-07T12:19:42+08:00 ] 127.0.0.1 /index.php?g=Admin&m=ForHost&a=owner_information&menuid=218
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForHostModel
+

@@ -1,0 +1,18 @@
+[ 2019-02-19T11:24:27+08:00 ] 180.152.248.108 /index.php?g=Portal&m=AdminPost&a=comment_article&menuid=201
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+NOTIC: D方法实例化没找到模型类Portal\Model\SignUpModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2019-02-19T11:24:27+08:00 ] 180.152.248.108 /index.php?g=Portal&m=AdminPost&a=article&menuid=199
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+NOTIC: D方法实例化没找到模型类Portal\Model\SignUpModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2019-02-19T11:24:28+08:00 ] 180.152.248.108 /index.php?g=Portal&m=AdminPost&a=recyarticle&menuid=200
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+NOTIC: D方法实例化没找到模型类Portal\Model\SignUpModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+

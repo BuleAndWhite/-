@@ -1,0 +1,30 @@
+[ 2020-07-10T09:39:42+08:00 ] 114.88.206.17 /Api/JobSearch/myDelivery
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.enterprise' in 'field list'
+
+[ 2020-07-10T09:47:13+08:00 ] 114.88.206.17 /Api/JobSearch/myDelivery
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.enterprise' in 'field list'
+
+[ 2020-07-10T10:27:58+08:00 ] 114.88.206.17 /Api/JobSearch/myDelivery
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.enterprise' in 'field list'
+
+[ 2020-07-10T10:45:32+08:00 ] 114.88.206.17 /Api/JobSearch/myDelivery
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.enterprise' in 'field list'
+
+[ 2020-07-10T14:38:09+08:00 ] 114.88.206.17 /https://sns.kuaifengpay.com/public/xianyu/resume/20200710/2020-07-101594352762oo2f0rof.pdf
+ERR: 无法加载控制器:Https:
+
+[ 2020-07-10T15:08:27+08:00 ] 117.136.8.137 /https://sns.kuaifengpay.com/public/xianyu/resume/20200710/2020-07-101594363661qb7ymikm.docx
+ERR: 无法加载控制器:Https:
+
+[ 2020-07-10T15:09:17+08:00 ] 117.136.8.137 /https://sns.kuaifengpay.com/public/xianyu/resume/20200710/2020-07-101594363661qb7ymikm.docx
+ERR: 无法加载控制器:Https:
+
+[ 2020-07-10T15:09:48+08:00 ] 117.136.8.137 /https://sns.kuaifengpay.com/public/xianyu/resume/20200710/2020-07-101594363661qb7ymikm.docx
+ERR: 无法加载控制器:Https:
+
+[ 2020-07-10T15:18:58+08:00 ] 117.136.8.137 /https://sns.kuaifengpay.com/public/xianyu/resume/20200710/2020-07-101594363661qb7ymikm.docx
+ERR: 无法加载控制器:Https:
+
+[ 2020-07-10T18:40:08+08:00 ] 117.136.8.137 /https://sns.kuaifengpay.com/public/xianyu/resume/20200710/2020-07-101594363661qb7ymikm.docx
+ERR: 无法加载控制器:Https:
+

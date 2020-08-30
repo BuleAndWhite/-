@@ -1,0 +1,40 @@
+<?php
+return array (
+  'app' => 'Admin',
+  'model' => 'Goods',
+  'action' => 'default',
+  'data' => '',
+  'type' => '1',
+  'status' => '1',
+  'name' => '商品管理',
+  'icon' => 'shopping-cart',
+  'remark' => '',
+  'listorder' => '51',
+  'children' => 
+  array (
+    array (
+      'app' => 'Admin',
+      'model' => 'Goods',
+      'action' => 'category',
+      'data' => '',
+      'type' => '1',
+      'status' => '1',
+      'name' => '商品分类',
+      'icon' => '',
+      'remark' => '',
+      'listorder' => '100',
+    ),
+    array (
+      'app' => 'Admin',
+      'model' => 'Goods',
+      'action' => 'index',
+      'data' => '',
+      'type' => '1',
+      'status' => '1',
+      'name' => '所有商品',
+      'icon' => '',
+      'remark' => '',
+      'listorder' => '101',
+    ),
+  ),
+);

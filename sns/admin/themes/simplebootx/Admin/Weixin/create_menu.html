@@ -1,0 +1,41 @@
+<admintpl file="header" />
+<style>
+li {
+	list-style: none;
+}
+</style>
+</head>
+<body>
+	<div class="wrap">
+	<ul class="nav nav-tabs">
+			<li><a href="{:U('Weixin/menu')}">{:L('WX_MENU')}</a></li>
+			<li><a href="{:U('Weixin/add_menu','t=b')}">{:L('WX_JUMP_MENU')}</a></li>
+			<li><a href="{:U('Weixin/add_menu','t=c')}">{:L('WX_SENDMSG_MENU')}</a></li>
+			<li class="active"><a onclick="return false" href="{:U('Weixin/create_menu')}">{:L('WX_CREATE_MENU')}</a></li>
+		</ul>
+		<div id="error_tips">
+			<eq name="result.errcode" value="0">
+			<h2>菜单设置成功！微信取消并重新关注即可看到最新效果！</h2>
+			<else/>
+			<h2>菜单设置错误，错误码：{$result['errcode']} 错误提示：{$result['errmsg']}</h2>
+			</eq>
+			<div class="error_cont">
+				<div class="error_return">
+					<a href="javascript:close_app();" class="btn">{:L('CLOSE')}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+	<script>
+		var close_timeout = setTimeout(function() {
+			location.href = "{:U('Weixin/menu')}";
+		}, 3000);
+
+		function close_app() {
+			clearTimeout(close_timeout);
+			parent.close_current_app();
+		}
+	</script>
+</body>
+</html>

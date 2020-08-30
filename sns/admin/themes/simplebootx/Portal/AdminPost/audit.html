@@ -1,0 +1,79 @@
+<admintpl file="header"/>
+</head>
+<body style="min-width: 800px;">
+<div class="wrap js-check-wrap">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="javascript:;">参赛选手审核</a></li>
+	</ul>
+	<form class="js-ajax-form" method="post">
+		<div class="table-actions">
+			<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('AdminPost/auditors',array('audit'=>1))}" data-subcheck="true">审核</button>
+			<button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('AdminPost/auditors',array('unaudit'=>1))}" data-subcheck="true">取消审核</button>
+		</div>
+		<table class="table table-hover table-bordered table-list">
+			<thead>
+			<tr>
+				<th width="15"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th>
+				<!--<th width="15"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th>-->
+				<th width="50">ID</th>
+				<th width="50">选手名称</th>
+				<th width="50">状态</th>
+
+				<th width="50">提交时间</th>
+				<th width="50">操作</th>
+				<!--<th width="50">{:L('STATUS')}</th>-->
+				<!--<th width="50">{:L('ACTIONS')}</th>-->
+			</tr>
+			</thead>
+			<php>
+				$top_status=array("0"=>"未审核","1"=>"已审核","2"=>"驳回");
+			</php>
+			<foreach name="PostList" item="vo">
+				<tr>
+					<td><input type="checkbox" class="js-check" data-yid="js-check-y" data-xid="js-check-x" name="ids[]" value="{$vo.id}" title="ID:{$vo.id}"></td>
+					<!--<td><input type="checkbox" class="js-check" data-yid="js-check-y" data-xid="js-check-x" name="ids[]" value="{$vo.id}"></td>-->
+					<td>{$vo.id}</td>
+					<td>{$vo.full_name}</td>
+					<!--<td>{$vo.email}</td>-->
+					<td>{$vo.create_time}</td>
+					<td>{$top_status[$vo['audit_status']]}</td>
+					<td>
+						<if condition="$vo.audit_status eq 0">
+
+							<a href="{:U('AdminPost/circleCheck',array('check'=>1,'ids'=>$vo['id'],'post_title'=>$vo['post_title']))}"
+							   class="js-ajax-dialog-btn">审核</a>
+							<a href="{:U('AdminPost/circleCheck',array('entlassen'=>1,'ids'=>$vo['id']))}"
+							   class="js-ajax-dialog-btn">驳回</a>
+							<else/>
+								<a href="javascript:open_iframe_dialog('{:U('AdminPost/material',array('post_id'=>$vo['uid'],'object_id'=>$vo['object_id'],'opus'=>$vo['opus']))}','参赛素材')">查看参赛素材</a>|
+								<a href="javascript:open_iframe_dialog('{:U('AdminPost/upload_material',array('post_id'=>$vo['uid'],'object_id'=>$vo['object_id']))}','上传素材')">上传素材</a>|
+
+							<a href="{:U('AdminPost/circleCheck',array('uncheck'=>1,'ids'=>$vo['id']))}"
+							   class="js-ajax-dialog-btn">取消审核</a>
+						</if>
+					</td>
+					<!--<td>{$status[$vo['status']]}</td>-->
+					<!--<td><a href="{:U('Commentadmin/delete',array('id'=>$vo['id']))}" class="js-ajax-delete">{:L('DELETE')}</a></td>-->
+				</tr>
+			</foreach>
+			<tfoot>
+			<tr>
+				<!--<th width="15"><label><input type="checkbox" class="js-check-all" data-direction="x" data-checklist="js-check-x"></label></th>-->
+				<th width="50">ID</th>
+				<th width="100">选手名称</th>
+				<th width="150">状态</th>
+
+				<th width="120">提交时间</th>
+				<th>操作</th>
+				<!--<th width="50">{:L('STATUS')}</th>-->
+				<!--<th width="50">{:L('ACTIONS')}</th>-->
+			</tr>
+			</tfoot>
+		</table>
+
+		<div class="pagination">{$Page}</div>
+	</form>
+</div>
+<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

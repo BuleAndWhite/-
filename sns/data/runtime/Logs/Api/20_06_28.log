@@ -1,0 +1,57 @@
+[ 2020-06-28T00:20:01+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:20:02+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:24:32+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:24:33+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:24:33+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:24:34+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:24:34+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:24:35+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:24:36+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:24:36+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:25:08+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:25:09+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:25:17+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T00:25:18+08:00 ] 116.238.204.66 /Api/Recruitment/recruitmentChatList?unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #3 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sns.a.recruitment_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+[ 2020-06-28T19:24:03+08:00 ] 114.88.206.17 /Api/System/send_email
+ERR: Think\Controller:apiSuccess方法不存在！
+
+[ 2020-06-28T19:24:13+08:00 ] 114.88.206.17 /Api/System/send_email
+ERR: Think\Controller:apiSuccess方法不存在！
+
+[ 2020-06-28T19:24:53+08:00 ] 114.88.206.17 /Api/System/send_email
+ERR: Think\Controller:apiSuccess方法不存在！
+
+[ 2020-06-28T19:24:58+08:00 ] 114.88.206.17 /Api/System/send_email
+ERR: Think\Controller:apiSuccess方法不存在！
+
+[ 2020-06-28T19:25:04+08:00 ] 114.88.206.17 /Api/System/send_email
+ERR: Think\Controller:apiSuccess方法不存在！
+

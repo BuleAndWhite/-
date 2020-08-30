@@ -1,0 +1,79 @@
+[ 2018-12-20T10:59:24+08:00 ] 180.161.118.229 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0017s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('180.161.118.229','1','1545274764','1') [ RunTime:0.0046s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='180.161.118.229',`last_login_time`='2018-12-20 10:59:24',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0034s ]
+
+[ 2018-12-20T10:59:27+08:00 ] 180.161.118.229 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-20T10:59:45+08:00 ] 180.161.118.229 /index.php?g=Admin&m=user&a=owner&did=KF_w3a6oq5z&user_type=2
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-20T10:59:47+08:00 ] 180.161.118.229 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-20T11:02:09+08:00 ] 180.161.118.229 /index.php?g=Admin&m=user&a=owner&did=KF_w3a6oq5z&user_type=2
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-20T11:03:39+08:00 ] 180.161.118.229 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-20T11:03:46+08:00 ] 180.161.118.229 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'shizong' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0014s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '102' AND `status` = 1  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('180.161.118.229','102','1545275026','1') [ RunTime:0.0586s ]
+SQL: UPDATE `az_users` SET `user_login`='shizong',`user_pass`='###32cc2671cd9197f259d0e8f9e472d05d',`user_nicename`=NULL,`user_email`='45745@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='180.161.118.229',`last_login_time`='2018-12-20 11:03:46',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='2',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`='KF_w3a6oq5z',`parent`='1',`wx_id`='670',`machine_code`='',`q_r_code`='https://bolon.kuaifengpay.com/public/kuaifeng/2018-09-25-o5wpt8hx.png',`password_code`='' WHERE `id` = 102 [ RunTime:0.0033s ]
+
+[ 2018-12-20T11:03:48+08:00 ] 180.161.118.229 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-20T11:04:03+08:00 ] 180.161.118.229 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'bolin' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0014s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '103' AND `status` = 1  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0014s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('180.161.118.229','103','1545275043','1') [ RunTime:0.0039s ]
+SQL: UPDATE `az_users` SET `user_login`='bolin',`user_pass`='###c70a620660bd65ea249641adc7fc694c',`user_nicename`=NULL,`user_email`='46574567@qq.com',`user_url`=NULL,`avatar`=NULL,`sex`=NULL,`birthday`=NULL,`signature`=NULL,`last_login_ip`='180.161.118.229',`last_login_time`='2018-12-20 11:04:03',`create_time`=NULL,`user_activation_key`=NULL,`user_status`='1',`score`=NULL,`user_type`='3',`coin`=NULL,`mobile`=NULL,`follow_num`='0',`gag`='1',`oauth_id`=NULL,`did`='KF_a8kqa28y',`parent`='102',`wx_id`='670',`machine_code`='',`q_r_code`='https://bolon.kuaifengpay.com/public/kuaifeng/2018-09-14-5zo1pmpt.png',`password_code`='' WHERE `id` = 103 [ RunTime:0.0035s ]
+
+[ 2018-12-20T11:04:06+08:00 ] 180.161.118.229 /index.php?g=Admin&m=User&a=index&menuid=149
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-20T11:04:20+08:00 ] 180.161.118.229 /index.php?g=Admin&m=user&a=owner&did=KF_a8kqa28y&user_type=3
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-20T11:34:44+08:00 ] 180.161.118.229 /index.php?g=Admin&m=user&a=owner&did=KF_a8kqa28y&user_type=3
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+
+[ 2018-12-20T14:12:16+08:00 ] 180.161.118.229 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0015s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0015s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('180.161.118.229','1','1545286336','1') [ RunTime:0.0038s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='180.161.118.229',`last_login_time`='2018-12-20 14:12:16',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0033s ]
+

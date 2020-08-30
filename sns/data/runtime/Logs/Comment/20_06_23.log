@@ -1,0 +1,56 @@
+[ 2020-06-23T11:17:37+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=forum_post
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T11:17:46+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=follow&post_id=1&tablename=forum
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.follow_id' in 'where clause'
+
+[ 2020-06-23T14:31:04+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:31:11+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=3&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:31:17+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=1&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:36:23+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:36:43+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:37:01+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:37:25+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:42:49+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sof' in 'where clause'
+
+[ 2020-06-23T14:44:11+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sof' in 'where clause'
+
+[ 2020-06-23T14:46:16+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''sof''  ) LIMIT 1' at line 1
+
+[ 2020-06-23T14:47:01+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''sof''  ) LIMIT 1' at line 1
+
+[ 2020-06-23T14:49:37+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:51:28+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=13&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:51:49+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-06-23T14:51:57+08:00 ] 114.88.206.17 /index.php?g=comment&m=commentadmin&a=index&post_id=14&tablename=sof
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+

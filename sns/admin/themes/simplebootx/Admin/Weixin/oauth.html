@@ -1,0 +1,32 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="">授权管理</a></li>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">授权用户</label>
+					<div class="controls">
+						<foreach name="user_list" item="vo">
+						<label class="checkbox inline">
+							
+							<input value="{$vo.id}" type="checkbox" name="ids[]" <if condition="in_array($vo['id'], explode(',', $wechat_config))">checked</if>>
+							<php>$result = json_decode($vo['wechat_user_options'], true); echo $result['nickname'];</php>
+						</label>
+						</foreach>
+					</div>
+				</div>
+			</fieldset>
+			<div class="form-actions">
+				<input type="hidden" name="id" value="{$id}" />
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('SAVE')}</button>
+				<a class="btn" href="{:U('user/index')}">{:L('BACK')}</a>
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

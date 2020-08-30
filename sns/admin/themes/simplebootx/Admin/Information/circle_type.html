@@ -1,0 +1,127 @@
+<admintpl file="header"/>
+
+</head>
+<body>
+<div class="wrap js-check-wrap">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="javascript:;">板块类型</a></li>
+        <li><a href="{:U('Information/plate_add')}">添加板块</a></li>
+        <!--<li><a href="{:U('AdminPost/add',array('term'=>empty($term['term_id'])?'':$term['term_id']))}" target="_self">添加帖子</a></li>-->
+    </ul>
+
+    <form class="js-ajax-form" action="" method="post">
+        <div class="table-actions">
+            <button class="btn btn-primary btn-small js-ajax-submit" type="submit"
+                    data-action="{:U('Information/sortList')}">{:L('SORT')}
+            </button>
+            <button class="btn btn-primary btn-small js-ajax-submit" type="submit"
+                    data-action="{:U('Information/circleNaBled',array('NaBledId'=>1))}" data-subcheck="true">启用
+            </button>
+            <button class="btn btn-primary btn-small js-ajax-submit" type="submit"
+                    data-action="{:U('Information/circleNaBled',array('unNaBledId'=>1))}" data-subcheck="true">禁言
+            </button>
+        </div>
+        <table class="table table-hover table-bordered table-list">
+            <thead>
+            <tr>
+                <th width="15"><label><input type="checkbox" class="js-check-all" data-direction="x"
+                                             data-checklist="js-check-x"></label></th>
+                <th width="50">{:L('SORT')}</th>
+                <th width="50">Id</th>
+                <th width="80">用户</th>
+                <th width="50">{:L('STATUS')}</th>
+                <!--<th width="70">{:L('ACTIONS')}</th>-->
+            </tr>
+            </thead>
+            <php>
+                $circleList=array("1"=>"启用","0"=>"禁用");
+            </php>
+            <foreach name="circleTypeList" item="vo">
+                <tr>
+                    <td><input type="checkbox" class="js-check" data-yid="js-check-y" data-xid="js-check-x" name="ids[]"
+                               value="{$vo.id}" title="ID:{$vo.id}"></td>
+                    <td><input name="listorders[{$vo.id}]" class="input input-order" type="text" size="5"
+                               value="{$vo.listorder}" title="ID:{$vo.id}"></td>
+                    <td>{$vo.id}</td>
+                    <td>{$vo.name}</td>
+                    <td>{$circleList[$vo['nabled']]}
+                    </td>
+
+                    <!--<a href="{:U('AdminPost/edit',array('term'=>empty($term['term_id'])?'':$term['term_id'],'id'=>$vo['']))}">{:L('EDIT')}</a> |-->
+                    <!--<a href="{:U('Information/plateDelete',array('tid'=>$vo['tid']))}" class="js-ajax-delete">{:L('DELETE')}</a></td>-->
+
+                </tr>
+            </foreach>
+            <tfoot>
+            <tr>
+                <th width="15"><label><input type="checkbox" class="js-check-all" data-direction="x"
+                                             data-checklist="js-check-x"></label></th>
+                <th width="50">{:L('SORT')}</th>
+                <th width="50">Id</th>
+                <th width="80">用户</th>
+                <th width="50">{:L('STATUS')}</th>
+                <!--<th width="70">{:L('ACTIONS')}</th>-->
+            </tr>
+            </tfoot>
+        </table>
+        <div class="table-actions">
+            <button class="btn btn-primary btn-small js-ajax-submit" type="submit"
+                    data-action="{:U('Information/sortList')}">{:L('SORT')}
+            </button>
+            <button class="btn btn-primary btn-small js-ajax-submit" type="submit"
+                    data-action="{:U('Information/circleNaBled',array('NaBledId'=>1))}" data-subcheck="true">启用
+            </button>
+            <button class="btn btn-primary btn-small js-ajax-submit" type="submit"
+                    data-action="{:U('Information/circleNaBled',array('unNaBledId'=>1))}" data-subcheck="true">禁言
+            </button>
+        </div>
+        <div class="pagination">{$page}</div>
+    </form>
+</div>
+<script src="__PUBLIC__/js/common.js"></script>
+<script>
+    function refersh_window() {
+        var refersh_time = getCookie('refersh_time');
+        if (refersh_time == 1) {
+            window.location = "{:U('Information/index',$formget)}";
+        }
+    }
+
+    setInterval(function () {
+        refersh_window();
+    }, 2000);
+    $(function () {
+        setCookie("refersh_time", 0);
+        Wind.use('ajaxForm', 'artDialog', 'iframeTools', function () {
+            //批量移动
+            $('.js-articles-move').click(function (e) {
+                var str = 0;
+                var id = tag = '';
+                $("input[name='ids[]']").each(function () {
+                    if ($(this).attr('checked')) {
+                        str = 1;
+                        id += tag + $(this).val();
+                        tag = ',';
+                    }
+                });
+                if (str == 0) {
+                    art.dialog.through({
+                        id: 'error',
+                        icon: 'error',
+                        content: '您没有勾选信息，无法进行操作！',
+                        cancelVal: '关闭',
+                        cancel: true
+                    });
+                    return false;
+                }
+                var $this = $(this);
+                art.dialog.open("__ROOT__/index.php?g=portal&m=AdminPost&a=move&ids=" + id, {
+                    title: "批量移动",
+                    width: "80%"
+                });
+            });
+        });
+    });
+</script>
+</body>
+</html>

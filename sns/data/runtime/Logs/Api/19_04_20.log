@@ -1,0 +1,39 @@
+[ 2019-04-20T11:01:51+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_9LglE6EPGvw9WFlX9EEIv7eypZ1ugMUbxWAaUGqC2W-q_NED9Z78cZm58t2lLejMma6Rq72TuU1HKgsUEPmjhIALEaNZ1KCsEZkeV3lJN9Y
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:01:54+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_9LglE6EPGvw9WFlX9EEIv7eypZ1ugMUbxWAaUGqC2W-q_NED9Z78cZm58t2lLejMma6Rq72TuU1HKgsUEPmjhIALEaNZ1KCsEZkeV3lJN9Y
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:01:56+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_9LglE6EPGvw9WFlX9EEIv7eypZ1ugMUbxWAaUGqC2W-q_NED9Z78cZm58t2lLejMma6Rq72TuU1HKgsUEPmjhIALEaNZ1KCsEZkeV3lJN9Y
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:02:05+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_9LglE6EPGvw9WFlX9EEIv7eypZ1ugMUbxWAaUGqC2W-q_NED9Z78cZm58t2lLejMma6Rq72TuU1HKgsUEPmjhIALEaNZ1KCsEZkeV3lJN9Y
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:02:06+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_9LglE6EPGvw9WFlX9EEIv7eypZ1ugMUbxWAaUGqC2W-q_NED9Z78cZm58t2lLejMma6Rq72TuU1HKgsUEPmjhIALEaNZ1KCsEZkeV3lJN9Y
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:02:06+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_9LglE6EPGvw9WFlX9EEIv7eypZ1ugMUbxWAaUGqC2W-q_NED9Z78cZm58t2lLejMma6Rq72TuU1HKgsUEPmjhIALEaNZ1KCsEZkeV3lJN9Y
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:02:07+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_9LglE6EPGvw9WFlX9EEIv7eypZ1ugMUbxWAaUGqC2W-q_NED9Z78cZm58t2lLejMma6Rq72TuU1HKgsUEPmjhIALEaNZ1KCsEZkeV3lJN9Y
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:02:55+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_phSsuG8J6K7GVQqRm0ovsAEReU-dsgW9KxOthq4lElbxo0K7184lCkEUcfiUlwTkaJC6JjvfxNN-0wKTNLTTq7tXX-KpipsG10ANfaD623k
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:46:40+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_VLuWpCVjhJiTtrZYHQ2hD2fZp97zdXJAfm4NnoAgY9CvDjRmZINudJdsiihKeqcf-ph8xRmAmLjBzQ9P3Lfuss81nIorbJYLESt9x9IqjsA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:46:44+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_VLuWpCVjhJiTtrZYHQ2hD2fZp97zdXJAfm4NnoAgY9CvDjRmZINudJdsiihKeqcf-ph8xRmAmLjBzQ9P3Lfuss81nIorbJYLESt9x9IqjsA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:46:45+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_VLuWpCVjhJiTtrZYHQ2hD2fZp97zdXJAfm4NnoAgY9CvDjRmZINudJdsiihKeqcf-ph8xRmAmLjBzQ9P3Lfuss81nIorbJYLESt9x9IqjsA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:46:46+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_VLuWpCVjhJiTtrZYHQ2hD2fZp97zdXJAfm4NnoAgY9CvDjRmZINudJdsiihKeqcf-ph8xRmAmLjBzQ9P3Lfuss81nIorbJYLESt9x9IqjsA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+
+[ 2019-04-20T11:46:46+08:00 ] 118.132.101.158 /Api/IndexGene/binding?idcard=330381198602030029&mobile=18616576732&openid=od2g51i4xiu9dGphwHpq7VMcwCWQ&access_token=20_VLuWpCVjhJiTtrZYHQ2hD2fZp97zdXJAfm4NnoAgY9CvDjRmZINudJdsiihKeqcf-ph8xRmAmLjBzQ9P3Lfuss81nIorbJYLESt9x9IqjsA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x92\x84ci...' for column 'name' at row 1
+

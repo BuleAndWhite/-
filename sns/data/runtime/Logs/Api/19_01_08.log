@@ -1,0 +1,246 @@
+[ 2019-01-08T17:20:25+08:00 ] 47.101.50.252 /explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2019-01-08T17:20:25+08:00 ] 47.101.50.252 /index.jsp
+ERR: 无法加载控制器:Index.jsp
+
+[ 2019-01-08T17:20:26+08:00 ] 47.101.50.252 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2019-01-08T17:20:26+08:00 ] 47.101.50.252 /static/.gitignore
+ERR: 无法加载控制器:Static
+
+[ 2019-01-08T17:20:26+08:00 ] 47.101.50.252 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2019-01-08T17:20:26+08:00 ] 47.101.50.252 /README
+ERR: 无法加载控制器:README
+
+[ 2019-01-08T17:20:26+08:00 ] 47.101.50.252 /solr/
+ERR: 无法加载控制器:Solr
+
+[ 2019-01-08T17:20:26+08:00 ] 47.101.50.252 /wcm/
+ERR: 无法加载控制器:Wcm
+
+[ 2019-01-08T17:20:26+08:00 ] 47.101.50.252 /phpMyAdmin/
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2019-01-08T17:20:26+08:00 ] 47.101.50.252 /phpmyadmin/
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2019-01-08T17:20:26+08:00 ] 47.101.50.252 /pma/
+ERR: 无法加载控制器:Pma
+
+[ 2019-01-08T20:15:36+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:15:39+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:15:43+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:15:48+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:15:52+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:15:52+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:15:53+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:15:56+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:15:57+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:15:58+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:16:00+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:16:02+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:16:03+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:16:21+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:16:44+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_uOva-00dctgwswcsIsiVIQ9dCiCvL8vNzVTBXReFImlLkk4Q_Y-edyL4i2mCtrmW4ZU5G2PBwIrCqNai55rcYLMrIPYZM2chulUzeLM34AA
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:26+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:27+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:27+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:29+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:37+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:38+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:39+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:39+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:41+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:43+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:43+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:17:44+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:18:33+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_Ck_nUHzEsFiVbAKlPYOSiZXExmF6bigYthgA1bs09Uil9CKUfaKOMHgYFTqA2d3dYis4e_iiVcdXoxta0HmH-Up1eaJUZvca3joXqJs4lX0
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:06+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:06+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:07+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:08+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:08+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:09+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:09+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:10+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:10+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T20:20:12+08:00 ] 116.236.99.147 /Api/IndexGene/binding?idcard=370883198508290016&mobile=18354733999&openid=od2g51q6Mpro6FgFRvrfD-Lhc8XA&access_token=17_rEPIzekvdQDdVfAu7TEjaErUzPL7T0MTO3O80TFQVEzdCt5Luq5G7jqYMYmQSifLdv9UixhduPbPy8dQzq3ghhCu2AQtGcpQhhi0I7VJZFI
+ERR: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\xF0\x9F\x8C\x9F\xE6\x98...' for column 'name' at row 1
+
+[ 2019-01-08T23:01:30+08:00 ] 47.101.50.252 /explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2019-01-08T23:01:30+08:00 ] 47.101.50.252 /index.jsp
+ERR: 无法加载控制器:Index.jsp
+
+[ 2019-01-08T23:01:31+08:00 ] 47.101.50.252 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2019-01-08T23:01:31+08:00 ] 47.101.50.252 /static/.gitignore
+ERR: 无法加载控制器:Static
+
+[ 2019-01-08T23:01:31+08:00 ] 47.101.50.252 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2019-01-08T23:01:31+08:00 ] 47.101.50.252 /README
+ERR: 无法加载控制器:README
+
+[ 2019-01-08T23:01:31+08:00 ] 47.101.50.252 /solr/
+ERR: 无法加载控制器:Solr
+
+[ 2019-01-08T23:01:31+08:00 ] 47.101.50.252 /wcm/
+ERR: 无法加载控制器:Wcm
+
+[ 2019-01-08T23:01:31+08:00 ] 47.101.50.252 /phpMyAdmin/
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2019-01-08T23:01:31+08:00 ] 47.101.50.252 /phpmyadmin/
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2019-01-08T23:01:31+08:00 ] 47.101.50.252 /pma/
+ERR: 无法加载控制器:Pma
+
+[ 2019-01-08T23:03:10+08:00 ] 47.101.50.252 /explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2019-01-08T23:03:12+08:00 ] 47.101.50.252 /index.jsp
+ERR: 无法加载控制器:Index.jsp
+
+[ 2019-01-08T23:03:13+08:00 ] 47.101.50.252 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2019-01-08T23:03:13+08:00 ] 47.101.50.252 /static/.gitignore
+ERR: 无法加载控制器:Static
+
+[ 2019-01-08T23:03:14+08:00 ] 47.101.50.252 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2019-01-08T23:03:14+08:00 ] 47.101.50.252 /README
+ERR: 无法加载控制器:README
+
+[ 2019-01-08T23:03:14+08:00 ] 47.101.50.252 /solr/
+ERR: 无法加载控制器:Solr
+
+[ 2019-01-08T23:03:14+08:00 ] 47.101.50.252 /wcm/
+ERR: 无法加载控制器:Wcm
+
+[ 2019-01-08T23:03:14+08:00 ] 47.101.50.252 /phpMyAdmin/
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2019-01-08T23:03:14+08:00 ] 47.101.50.252 /phpmyadmin/
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2019-01-08T23:03:14+08:00 ] 47.101.50.252 /pma/
+ERR: 无法加载控制器:Pma
+
+[ 2019-01-08T23:03:20+08:00 ] 47.101.50.252 /explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2019-01-08T23:03:22+08:00 ] 47.101.50.252 /index.jsp
+ERR: 无法加载控制器:Index.jsp
+
+[ 2019-01-08T23:03:23+08:00 ] 47.101.50.252 /robots.txt
+ERR: 无法加载控制器:Robots.txt
+
+[ 2019-01-08T23:03:23+08:00 ] 47.101.50.252 /static/.gitignore
+ERR: 无法加载控制器:Static
+
+[ 2019-01-08T23:03:23+08:00 ] 47.101.50.252 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+
+[ 2019-01-08T23:03:23+08:00 ] 47.101.50.252 /README
+ERR: 无法加载控制器:README
+
+[ 2019-01-08T23:03:24+08:00 ] 47.101.50.252 /solr/
+ERR: 无法加载控制器:Solr
+
+[ 2019-01-08T23:03:24+08:00 ] 47.101.50.252 /wcm/
+ERR: 无法加载控制器:Wcm
+
+[ 2019-01-08T23:03:24+08:00 ] 47.101.50.252 /phpMyAdmin/
+ERR: 无法加载控制器:PhpMyAdmin
+
+[ 2019-01-08T23:03:24+08:00 ] 47.101.50.252 /phpmyadmin/
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2019-01-08T23:03:24+08:00 ] 47.101.50.252 /pma/
+ERR: 无法加载控制器:Pma
+

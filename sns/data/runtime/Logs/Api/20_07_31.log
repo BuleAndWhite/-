@@ -1,0 +1,96 @@
+[ 2020-07-31T09:49:29+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T09:52:38+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T09:52:53+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T10:31:59+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T10:42:37+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T10:57:40+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T10:58:20+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:10+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:17+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:40+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:40+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:41+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:41+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:42+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:42+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:42+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:42+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:42+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:43+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:43+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:43+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:46+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:00:46+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:02:32+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:04:08+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:05:16+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:08:24+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:09:06+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:19:06+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:24:20+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:24:56+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+
+[ 2020-07-31T11:36:57+08:00 ] 101.86.196.137 /Api/User/personalBusinessCardDetail
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.‌formation' in 'field list'
+

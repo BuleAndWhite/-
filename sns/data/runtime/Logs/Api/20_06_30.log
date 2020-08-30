@@ -1,0 +1,24 @@
+[ 2020-06-30T18:47:07+08:00 ] 114.88.206.17 /Api/JobSearch/resumeGeneration?unionid=o8SpS1W5WxfApVN-9GzhjFEGc9gI
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1
+
+[ 2020-06-30T18:52:58+08:00 ] 114.88.206.17 /Api/JobSearch/resumeGeneration?unionid=o8SpS1W5WxfApVN-9GzhjFEGc9gI
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1
+
+[ 2020-06-30T19:17:41+08:00 ] 114.88.206.17 /Api/JobSearch/resumeGeneration?unionid=o8SpS1WBgs1s0dr4nvpzqBUsS4c0
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1
+
+[ 2020-06-30T19:40:43+08:00 ] 114.88.206.17 /Api/JobSearch/resumeGeneration?unionid=o8SpS1WBgs1s0dr4nvpzqBUsS4c0
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1
+
+[ 2020-06-30T19:41:51+08:00 ] 114.88.206.17 /Api/JobSearch/resumeGeneration?unionid=o8SpS1WBgs1s0dr4nvpzqBUsS4c0
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'title' at row 1
+
+[ 2020-06-30T23:53:39+08:00 ] 116.238.204.66 /
+ERR: Connection refused
+
+[ 2020-06-30T23:58:16+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+
+[ 2020-06-30T23:59:42+08:00 ] 116.238.204.66 /
+ERR: read error on connection
+

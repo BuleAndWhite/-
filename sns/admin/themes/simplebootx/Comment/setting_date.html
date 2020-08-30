@@ -1,0 +1,32 @@
+<admintpl file="header"/>
+</head>
+<body>
+<div class="wrap">
+    <ul class="nav nav-tabs">
+        <li class="active"><a>设置过期时间</a></li>
+    </ul>
+    <form class="well form-search" method="post" action="{:U('Commentadmin/setting_date')}">
+        <div class="table-actions">
+            设置过期时间：
+            <input value="{$id}" type="hidden" name="id" />
+             <input placeholder="分成比例(小数)" type="datetime-local" name="expiration_time" />
+            <input type="submit" class="btn btn-primary" value="设置"/>
+        </div>
+    </form>
+    <h4 style="color: red">请谨慎选择</h4>
+    <!--<form class="form-search js-ajax-form" method="post">-->
+    <!--<div class="table-actions">-->
+    <!--口令码:-->
+    <!--<input type="text" style="width: 200px; color: #1abc9c"readonly="readonly" value="{$password|default=''}" placeholder="请输入关键字...">-->
+
+    <!--<button  class="btn btn-primary btn-primary js-ajax-submit" type="submit"-->
+    <!--data-action="{:U('indexadmin/password',array('password'=>$password))}" >生成-->
+    <!--</button>-->
+    <!--</div>-->
+    <!--</form>-->
+
+
+</div>
+<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

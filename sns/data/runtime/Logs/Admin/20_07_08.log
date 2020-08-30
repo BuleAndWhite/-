@@ -1,0 +1,47 @@
+[ 2020-07-08T14:55:55+08:00 ] 114.88.206.17 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0016s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0054s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('114.88.206.17','1','1594191355','1') [ RunTime:0.0059s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='https://wx.qlogo.cn/mmopen/vi_32/b9Z3IR3VI7cPYfmLsUo76VI0ib77jmul6wQbjD1KW2JkgibKyaO1JMV108oCwXzdX4KTNGo1tmS3GVSr6rfKvTuA/132',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='114.88.206.17',`last_login_time`='2020-07-08 14:55:55',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0036s ]
+
+[ 2020-07-08T15:50:23+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Message&a=index&menuid=192
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageContentModel
+NOTIC: D方法实例化没找到模型类Common\Model\MessageModel
+
+[ 2020-07-08T16:02:36+08:00 ] 114.88.206.17 /index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `az_users` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `az_users` WHERE `user_login` = 'anzai' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `az_role_user` [ RunTime:0.0029s ]
+SQL: SELECT `role_id` FROM az_role_user a INNER JOIN az_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `az_login_log` [ RunTime:0.0066s ]
+SQL: INSERT INTO `az_login_log` (`ipaddress`,`uid`,`createtime`,`type`) VALUES ('114.88.206.17','1','1594195356','1') [ RunTime:0.0038s ]
+SQL: UPDATE `az_users` SET `user_login`='anzai',`user_pass`='###d6d7e2009e3919a229414e366b545dd1',`user_nicename`='管理员',`user_email`='13622223333',`user_url`='',`avatar`='https://wx.qlogo.cn/mmopen/vi_32/b9Z3IR3VI7cPYfmLsUo76VI0ib77jmul6wQbjD1KW2JkgibKyaO1JMV108oCwXzdX4KTNGo1tmS3GVSr6rfKvTuA/132',`sex`='0',`birthday`='2018-04-04',`signature`='',`last_login_ip`='114.88.206.17',`last_login_time`='2020-07-08 16:02:36',`create_time`='2147483647',`user_activation_key`='2',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='13622223333',`follow_num`='1',`gag`='1',`oauth_id`='',`did`='T201600271',`parent`='0',`wx_id`=NULL,`machine_code`=NULL,`q_r_code`='',`password_code`='' WHERE `id` = 1 [ RunTime:0.0040s ]
+
+[ 2020-07-08T19:10:53+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=circle_list&menuid=184
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+
+[ 2020-07-08T19:10:54+08:00 ] 114.88.206.17 /index.php?g=Admin&m=Information&a=index&menuid=185
+NOTIC: D方法实例化没找到模型类Common\Model\ForumTypeModel
+NOTIC: D方法实例化没找到模型类Common\Model\PostDiggModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumModel
+NOTIC: D方法实例化没找到模型类Common\Model\ForumPostModel
+NOTIC: D方法实例化没找到模型类Common\Model\ReplyModel
+

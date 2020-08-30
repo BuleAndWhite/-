@@ -1,0 +1,22 @@
+<?php
+return array(
+	"WX_LIST" => '列表',
+	"WX_TEXT" => '文本',
+	"WX_NEWS" => '图文',
+	"WX_IMAGE" => '图片',
+	"WX_VOICE" => '语音',
+	"WX_MUSIC" => '音乐',
+	"WX_VIDEO" => '视频',
+	"WX_PREV_MENU" => '上级菜单',
+	"WX_SUCAI" => '图文素材',
+	"WX_BROADS" => '新增群发',
+	"WX_KEYWORDS" => '关键字',		
+	"COMMENT_TIPS" => '一级菜单无需设置',
+	"NEWS_TYPE" => '消息类型',
+	"SEND_MEDIA" => '群发素材',
+	"SEND_TYPE" => '素材类型',
+	"SEND_STATE" => '发送状态',
+	"SEND_TIME" => '发送时间',
+	"SEND_TYPE" => '推送类型',
+	"GROUP_LIST" => '分组列表',
+);

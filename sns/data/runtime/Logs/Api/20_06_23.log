@@ -1,0 +1,12 @@
+[ 2020-06-23T12:54:04+08:00 ] 101.132.108.252 /
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sns.az_temperature' doesn't exist
+
+[ 2020-06-23T18:13:29+08:00 ] 114.88.206.17 /Api/MakeComplaints/addMake?content=%E5%90%B9%E7%89%9B%E4%BA%86&unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+
+[ 2020-06-23T18:13:43+08:00 ] 114.88.206.17 /Api/MakeComplaints/addMake?&unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+
+[ 2020-06-23T18:13:51+08:00 ] 114.88.206.17 /Api/MakeComplaints/addMake?&unionid=oaKS01NIIAui_M1DhbSMsVsIwQVA
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+
